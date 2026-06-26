@@ -1,0 +1,2047 @@
+
+================ RUN START: 2026-04-15 18:43:30 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: OFF → ACC
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : ACC                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → IGNITION_ON
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 3250 RPM                                |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x02                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 9600 RPM                                |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x10                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 250 RPM                                 |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-15 18:43:38 ================
+[INFO ] System initialised.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 120 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 50 C                                    |
+| Gear             : 5                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition OFF → IGNITION_ON! Forcing FAULT mode.
+[FAULT] ENGINE STALL! RPM 140 is too low to maintain speed.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=2, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 2 km/h                                  |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 2 C                                     |
+| Gear             : 2                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x28                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=1                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+
+================ RUN START: 2026-04-15 18:44:37 ================
+[INFO ] System initialised.
+[FAULT] Illegal mode transition OFF → IGNITION_ON! Forcing FAULT mode.
+[FAULT] ENGINE STALL! RPM 140 is too low to maintain speed.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=2, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 2 km/h                                  |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 2 C                                     |
+| Gear             : 2                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x28                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=1                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+
+================ RUN START: 2026-04-15 19:42:09 ================
+[INFO ] System initialised.
+[INFO ] Mode transition: OFF → ACC
+[FAULT] ENGINE STALL! RPM 140 is too low to maintain speed.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 2 km/h                                  |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 2 C                                     |
+| Gear             : 2                                       |
+| Mode             : ACC                                     |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 2
+[INFO ] Mode transition: ACC → IGNITION_ON
+[FAULT] ENGINE STALL! RPM 140 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 2 km/h                                  |
+| Engine Speed     : 140 RPM                                 |
+| Temperature      : 2 C                                     |
+| Gear             : 2                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=1  persist=2                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid speed 240 – using last valid 2
+[INFO ] Mode transition: IGNITION_ON → FAULT
+[FAULT] ENGINE STALL! RPM 50 is too low to maintain speed.
+[FAULT] Fault [STALL] is now PERSISTENT (3 cycles)
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 2 km/h                                  |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 50 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x20                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=1  persist=3                        |
++--------------------------------------------------------------+
+
+
+================ RUN START: 2026-04-15 19:56:36 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: OFF → ACC
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : ACC                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → IGNITION_ON
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 3250 RPM                                |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x02                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 9600 RPM                                |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x10                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 250 RPM                                 |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-15 20:00:39 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition OFF → IGNITION_ON! Forcing FAULT mode.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=1                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x09                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=2                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[FAULT] Fault [INVALID_MODE] is now PERSISTENT (3 cycles)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=3                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x0A                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=4                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=5                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=6                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x18                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=7                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x28                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=8                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-15 20:08:25 ================
+[INFO ] System initialised.
+[WARN ] Invalid temperature -80 – using last valid 20
+[WARN ] Invalid gear 9 – using last valid 0
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 50 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 20 C                                    |
+| Gear             : 0                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+
+================ RUN START: 2026-04-15 20:18:05 ================
+[INFO ] System initialised.
+
+================ RUN START: 2026-04-15 20:18:25 ================
+[INFO ] System initialised.
+[WARN ] Invalid gear 9 – using last valid 0
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 150 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 50 C                                    |
+| Gear             : 0                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 0
+[INFO ] Mode transition: OFF → ACC
+[FAULT] OVERSPEED: 150 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 150 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 60 C                                    |
+| Gear             : 0                                       |
+| Mode             : ACC                                     |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → OFF
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 150 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 50 C                                    |
+| Gear             : 1                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+
+================ RUN START: 2026-04-15 22:36:46 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition OFF → IGNITION_ON! Forcing FAULT mode.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=1                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 100 C                                   |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=2                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[FAULT] Fault [INVALID_MODE] is now PERSISTENT (3 cycles)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=3                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x0A                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=4                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=5                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=6                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=7                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=8                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-15 22:41:48 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition OFF → IGNITION_ON! Forcing FAULT mode.
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=1                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=2                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[FAULT] Fault [INVALID_MODE] is now PERSISTENT (3 cycles)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=3                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x0A                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=4                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=5                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=6                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=7                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] Illegal mode transition FAULT → IGNITION_ON! Forcing FAULT mode.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : FAULT                                   |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x08                                    |
+| Persistent       : 0x08                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=1  persist=8                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-15 22:42:55 ================
+[INFO ] System initialised.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: OFF → ACC
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : ACC                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → IGNITION_ON
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 3250 RPM                                |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x02                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 9600 RPM                                |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x10                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 250 RPM                                 |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-16 02:58:02 ================
+[INFO ] System initialised. State set to NORMAL.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: OFF → ACC
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : ACC                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → IGNITION_ON
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 3250 RPM                                |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x02                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 9600 RPM                                |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x10                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 250 RPM                                 |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+
+
+================ RUN START: 2026-04-24 11:13:16 ================
+[INFO ] System initialised. State set to NORMAL.
+[INFO ] Test cases loaded successfully.
++--------------------------------------------------------------+
+| CYCLE 1  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : OFF                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: OFF → ACC
++--------------------------------------------------------------+
+| CYCLE 2  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 0 RPM                                   |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : ACC                                     |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[INFO ] Mode transition: ACC → IGNITION_ON
++--------------------------------------------------------------+
+| CYCLE 3  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=0  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] OVERSPEED: 130 km/h (threshold 120 km/h)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 4  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 130 km/h                                |
+| Engine Speed     : 3250 RPM                                |
+| Temperature      : 85 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x01                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=1                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] HIGH TEMPERATURE: 100°C (warning threshold 95°C)
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 5  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 100 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=0  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] CRITICAL OVERHEAT: temperature 115°C (threshold 110°C)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 6  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 115 C                                   |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x02                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=1                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[WARN ] Invalid gear 9 – using last valid 3
+[INFO ] System state: DEGRADED → NORMAL  (active faults=0, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 7  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 60 km/h                                 |
+| Engine Speed     : 3000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
++--------------------------------------------------------------+
+| CYCLE 8  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 40 km/h                                 |
+| Engine Speed     : 2000 RPM                                |
+| Temperature      : 80 C                                    |
+| Gear             : 3                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : NORMAL                                  |
++--------------------------------------------------------------+
+| Active Faults    : 0x00                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=0  persist=0                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE REDLINE! RPM 9600 (Limit: 6000)
+[INFO ] System state: NORMAL → DEGRADED  (active faults=1, persistent=0)
++--------------------------------------------------------------+
+| CYCLE 9  SUMMARY                                             |
++--------------------------------------------------------------+
+| Speed            : 80 km/h                                 |
+| Engine Speed     : 9600 RPM                                |
+| Temperature      : 90 C                                    |
+| Gear             : 1                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x10                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=1                        |
+| STALL            : cnt=0  persist=0                        |
++--------------------------------------------------------------+
+
+[FAULT] ENGINE STALL! RPM 250 is too low to maintain speed.
++--------------------------------------------------------------+
+| CYCLE 10  SUMMARY                                            |
++--------------------------------------------------------------+
+| Speed            : 10 km/h                                 |
+| Engine Speed     : 250 RPM                                 |
+| Temperature      : 90 C                                    |
+| Gear             : 5                                       |
+| Mode             : IGNITION_ON                             |
+| Sys State        : DEGRADED                                |
++--------------------------------------------------------------+
+| Active Faults    : 0x20                                    |
+| Persistent       : 0x00                                    |
++--------------------------------------------------------------+
+| OVERSPEED        : cnt=1  persist=0                        |
+| OVERTEMP         : cnt=1  persist=0                        |
+| INVALID_GEAR     : cnt=0  persist=0                        |
+| INVALID_MODE     : cnt=0  persist=0                        |
+| REDLINE          : cnt=1  persist=0                        |
+| STALL            : cnt=1  persist=1                        |
++--------------------------------------------------------------+
+
+================ RUN END ===================
+

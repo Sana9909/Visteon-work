@@ -1,0 +1,11 @@
+# name,speed,temperature,gear,mode,repeat
+TC1a Normal OFF,40,80,3,OFF,1
+TC1b Normal ACC,40,80,3,ACC,1
+TC1c Normal IGNITION,40,80,3,IGNITION_ON,1
+TC2 Overspeed,130,85,5,IGNITION_ON,1
+TC3 High Temperature,60,100,3,IGNITION_ON,1
+TC4 Critical Overheat,60,115,3,IGNITION_ON,1
+TC5 Invalid Gear,60,80,9,IGNITION_ON,1
+TC6 Illegal Mode Transition,40,80,3,IGNITION_ON,1
+TC7 Redline Test,80,90,1,IGNITION_ON,1
+TC8 Stall Test,10,90,5,IGNITION_ON,1
