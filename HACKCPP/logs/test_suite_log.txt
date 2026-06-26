@@ -1,0 +1,98 @@
+========================================
+  Vehicle Event Log Started
+  Timestamp: 2026-06-01 15:01:31
+========================================
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 1: Normal operation
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 1: Normal operation
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 1 values set: Temp=95.000000 C, Battery=12.500000 V, Speed=50.000000 km/h, Tire=32.000000 PSI, Door=CLOSED, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 1: Normal operation -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 2: Engine overheat
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 2: Engine overheat
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 2 values set: Temp=115.000000 C, Battery=12.500000 V, Speed=50.000000 km/h, Tire=32.000000 PSI, Door=CLOSED, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 2: Engine overheat -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 3: Low battery
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 3: Low battery
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 3 values set: Temp=90.000000 C, Battery=9.990000 V, Speed=50.000000 km/h, Tire=32.000000 PSI, Door=CLOSED, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 3: Low battery -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 4: Overspeed
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 4: Overspeed
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 4 values set: Temp=90.000000 C, Battery=12.000000 V, Speed=121.000000 km/h, Tire=32.000000 PSI, Door=CLOSED, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 4: Overspeed -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 5: Door open while moving
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 5: Door open while moving
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 5 values set: Temp=90.000000 C, Battery=12.000000 V, Speed=11.000000 km/h, Tire=32.000000 PSI, Door=OPEN, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 5: Door open while moving -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 6: Seatbelt unlocked while moving
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 6: Seatbelt unlocked while moving
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 6 values set: Temp=90.000000 C, Battery=12.000000 V, Speed=1.000000 km/h, Tire=32.000000 PSI, Door=CLOSED, Seatbelt=UNLOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 6: Seatbelt unlocked while moving -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 7: Low tire pressure
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 7: Low tire pressure
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 7 values set: Temp=90.000000 C, Battery=12.000000 V, Speed=40.000000 km/h, Tire=24.990000 PSI, Door=CLOSED, Seatbelt=LOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 7: Low tire pressure -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 8: All non-critical alerts together
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 8: All non-critical alerts together
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 8 values set: Temp=95.000000 C, Battery=9.000000 V, Speed=130.000000 km/h, Tire=20.000000 PSI, Door=CLOSED, Seatbelt=UNLOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 8: All non-critical alerts together -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 9: All alerts together
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 9: All alerts together
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 9 values set: Temp=120.000000 C, Battery=9.000000 V, Speed=130.000000 km/h, Tire=20.000000 PSI, Door=OPEN, Seatbelt=UNLOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 9: All alerts together -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_SUITE]  RUNNING TEST CASE 10: Boundary value verification
+[2026-06-01 15:01:31] [TEST_SUITE] ============================================================
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [TEST_START]  TEST CASE 10: Boundary value verification
+[2026-06-01 15:01:31] [TEST_START] ============================================================
+[2026-06-01 15:01:31] [INPUT] STEP 1: Tick 10 values set: Temp=110.000000 C, Battery=10.000000 V, Speed=120.000000 km/h, Tire=25.000000 PSI, Door=OPEN, Seatbelt=UNLOCKED
+[2026-06-01 15:01:31] [STATUS] TEST CASE 10: Boundary value verification -> PASSED
+[2026-06-01 15:01:31] [TEST_END] RESULT: PASSED
+========================================
+  Vehicle Event Log Ended
+  Timestamp: 2026-06-01 15:02:03
+========================================

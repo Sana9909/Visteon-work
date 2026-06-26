@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Alice (Default)",
+    "seatHeightCm": 95.0,
+    "mirrorAngleDeg": 12.5,
+    "temperaturePreferenceC": 22.0,
+    "maxSpeedThresholdKmh": 120.0,
+    "lowBatteryThresholdV": 10.0,
+    "engineTempThresholdC": 110.0
+  },
+  {
+    "name": "Bob (Eco)",
+    "seatHeightCm": 102.0,
+    "mirrorAngleDeg": 14.0,
+    "temperaturePreferenceC": 20.5,
+    "maxSpeedThresholdKmh": 100.0,
+    "lowBatteryThresholdV": 10.5,
+    "engineTempThresholdC": 105.0
+  },
+  {
+    "name": "Charlie (Valet)",
+    "seatHeightCm": 88.0,
+    "mirrorAngleDeg": 10.0,
+    "temperaturePreferenceC": 23.0,
+    "maxSpeedThresholdKmh": 80.0,
+    "lowBatteryThresholdV": 11.0,
+    "engineTempThresholdC": 100.0
+  }
+]

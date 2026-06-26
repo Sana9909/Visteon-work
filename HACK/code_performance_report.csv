@@ -1,0 +1,11 @@
+Report Generated,2026-04-15 20:18:01
+
+Module Name,Cycle Min,Cycle Max,Cycle Average,Code size,Data size
+read_inputs,26,110,87,241,16
+validate_inputs,30,23040,202,287,16
+update_mode,32,488,115,152,24
+run_control_checks,30,446,126,132,16
+update_fault_status,82,738,133,122,16
+evaluate_system_state,72,444,125,232,24
+log_cycle_summary,0,0,0,459,40
+init_system,92,19264,863,120,8

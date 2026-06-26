@@ -1,0 +1,32 @@
+========================================================
+         ACCIDENT EVENT DATA RECORDER (EDR) REPORT     
+========================================================
+  Trigger Reason     : Severe Collision Deceleration - Crash Event Detected
+  Records Captured   : 20 frames (10 seconds)
+  Crash-Safe Log Status: LOCKED & SEALED
+========================================================
+
+Timestamp             Temp (°C)Battery (V)Speed (kph)Tire (PSI)      Door  Seatbelt  G-Force
+--------------------------------------------------------------------------------------------
+2026-06-01 11:28:56         85.2      12.6      63.7      33.0    CLOSED  UNLOCKED       0.1 G
+2026-06-01 11:28:56         85.2      12.8      60.7      31.2    CLOSED    LOCKED       0.2 G
+2026-06-01 11:28:57         78.4      14.1      59.9      35.2      OPEN    LOCKED       0.1 G
+2026-06-01 11:28:57         99.1      13.6      63.7      30.9    CLOSED    LOCKED       0.2 G
+2026-06-01 11:28:58         84.1      12.0      64.3      30.3    CLOSED  UNLOCKED       0.1 G
+2026-06-01 11:28:58         77.7      13.1      67.8      36.4      OPEN    LOCKED       0.2 G
+2026-06-01 11:28:59        114.6      12.7      70.4      33.9    CLOSED    LOCKED       0.2 G
+2026-06-01 11:28:59         82.2      12.8      75.2      33.4    CLOSED    LOCKED       0.3 G
+2026-06-01 11:29:00         85.4      14.0      79.4      35.5    CLOSED    LOCKED       0.3 G
+2026-06-01 11:29:00         58.2      12.2      83.8      32.3    CLOSED    LOCKED       0.3 G
+2026-06-01 11:29:01         97.8      13.7      88.3      28.7      OPEN  UNLOCKED       0.3 G
+2026-06-01 11:29:01        123.2      12.0      89.9      33.4    CLOSED    LOCKED       0.1 G
+2026-06-01 11:29:02         83.9      12.3      90.8      32.5      OPEN    LOCKED       0.1 G
+2026-06-01 11:29:02         68.6      14.5      95.4      31.9    CLOSED    LOCKED       0.3 G
+2026-06-01 11:29:03        103.4      14.5      94.5      29.7    CLOSED    LOCKED       0.1 G
+2026-06-01 11:29:03         88.7      12.1      93.7      32.6    CLOSED  UNLOCKED       0.1 G
+2026-06-01 11:29:04         71.0      13.6      92.3      31.5    CLOSED  UNLOCKED       0.1 G
+2026-06-01 11:29:05        110.4      12.4      92.4      31.3    CLOSED  UNLOCKED       0.1 G
+2026-06-01 11:29:05         91.0      11.7      90.3      31.6    CLOSED  UNLOCKED       0.2 G
+2026-06-01 11:29:06         88.0      12.4      91.1      30.4      OPEN  UNLOCKED       0.1 G
+
+[END OF REPORT - FILE LOCKED]

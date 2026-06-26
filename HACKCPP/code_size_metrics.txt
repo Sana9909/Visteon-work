@@ -1,0 +1,120 @@
+================================================================================
+                    COMPILED BINARY METRICS AND SIZE REPORT
+   Adaptive Smart Cabin & Vehicle Health Monitoring System (v1.0)
+================================================================================
+Generated: 2026-05-29 (Local MSYS2 Toolchain Assembly Scan)
+
+This report details the Compiled Binary Size (Assembly/Machine Code) metrics for
+each component of the application, analyzed using the GNU `size` utility after 
+compilation with MSYS2 g++ (`-std=c++17 -Wall -Wextra -Wpedantic`).
+
+--------------------------------------------------------------------------------
+EXPLANATION OF SEGMENTS
+--------------------------------------------------------------------------------
+- .text Segment : The actual CPU instruction machine code (the true logic size).
+- .data Segment : Memory for initialized static/global variables.
+- .bss Segment  : Memory reserved for uninitialized static/global variables.
+- Total (.dec)  : The sum of the operational memory segments (.text + .data + .bss).
+
+--------------------------------------------------------------------------------
+1. SENSOR COMPONENT
+--------------------------------------------------------------------------------
+Defines derived physical sensors, polymorphic updates, and value conversion code.
+  - Object File : src/Sensor.o
+  - .text Segment            :    19,364 bytes
+  - .data Segment            :         0 bytes
+  - .bss Segment             :        16 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :    19,380 bytes
+
+--------------------------------------------------------------------------------
+2. ALERT COMPONENT
+--------------------------------------------------------------------------------
+Implements rules, threshold boundaries, active warnings, and evaluation logic.
+  - Object File : src/Alert.o
+  - .text Segment            :    39,088 bytes
+  - .data Segment            :        16 bytes
+  - .bss Segment             :        16 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :    39,120 bytes
+
+--------------------------------------------------------------------------------
+3. LOGGER COMPONENT
+--------------------------------------------------------------------------------
+Thread-safe EventLogger, RAII file handles, async queues, and lambda queries.
+  - Object File : src/Logger.o
+  - .text Segment            :    32,040 bytes
+  - .data Segment            :        16 bytes
+  - .bss Segment             :         0 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :    32,056 bytes
+
+--------------------------------------------------------------------------------
+4. DASHBOARD COMPONENT
+--------------------------------------------------------------------------------
+Console dashboard visualization, statistical summaries, and text charts.
+  - Object File : src/Dashboard.o
+  - .text Segment            :    34,376 bytes
+  - .data Segment            :        16 bytes
+  - .bss Segment             :         0 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :    34,392 bytes
+
+--------------------------------------------------------------------------------
+5. THREAD MANAGER COMPONENT
+--------------------------------------------------------------------------------
+Spawns and coordinates worker threads (polling, monitoring, rendering, logging).
+  - Object File : src/ThreadManager.o
+  - .text Segment            :    42,244 bytes
+  - .data Segment            :         0 bytes
+  - .bss Segment             :         0 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :    42,244 bytes
+
+--------------------------------------------------------------------------------
+6. JSON PARSER COMPONENT (Header-only)
+--------------------------------------------------------------------------------
+Parsed and compiled directly into components that include it.
+  - Object File : Header-only (inlined into main.o and tests.o)
+  - Details                  : Machine code is distributed inside consumer object files.
+
+--------------------------------------------------------------------------------
+7. APPLICATION ENTRY / MAIN
+--------------------------------------------------------------------------------
+Bootstraps application, handles interactive selection menu, launches threads.
+  - Object File : src/main.o
+  - .text Segment            :   103,748 bytes
+  - .data Segment            :        16 bytes
+  - .bss Segment             :         0 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :   103,764 bytes
+
+--------------------------------------------------------------------------------
+8. AUTOMATED TEST SUITE
+--------------------------------------------------------------------------------
+Runs extensive validations checking constructors, rules, logic, thread safety.
+  - Object File : src/tests.o
+  - .text Segment            :   201,460 bytes
+  - .data Segment            :        64 bytes
+  - .bss Segment             :         0 bytes
+  ----------------------------------------------------------------------------
+  Component Total            :   201,524 bytes
+
+
+================================================================================
+                          OVERALL METRICS SUMMARY
+================================================================================
+  - Total Compiled operational memory (.text + .data + .bss) across components:
+    * Total Operational .text   :   472,320 bytes (~472.3 KB)
+    * Total Operational .data   :         128 bytes
+    * Total Operational .bss    :          32 bytes
+    ------------------------------------------------------------------------
+    * Cumulative Object Code Size:  472,480 bytes (~472.5 KB)
+
+  - Final Linked Application (SmartVehicleMonitor.exe):
+    * Disk File Size            : 1,506,627 bytes (~1.51 MB)
+    * Note: The final executable includes standard libraries (<iostream>, 
+      <thread>, <vector>, etc.), runtime bootstrapping code, and extensive 
+      GDB Debugging Symbols (compiled with `-g` flag) mapping compiled 
+      instructions back to source code locations.
+================================================================================

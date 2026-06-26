@@ -1,0 +1,5 @@
+Test Case,T7. Multiple Faults in One Cycle
+Timestamp,2026-04-15 20:18:01
+
+Cycle,read_inputs,validate_inputs,update_mode,run_control_checks,update_fault_status,evaluate_system_state,Total
+1,28,324,122,116,206,278,1074

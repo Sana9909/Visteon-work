@@ -1,0 +1,16 @@
+========================================
+  Vehicle Event Log Started
+  Timestamp: 2026-06-01 15:02:03
+========================================
+[2026-06-01 15:02:03] [SYSTEM] System startup - all subsystems initialised
+[2026-06-01 15:02:03] [SYSTEM] ThreadManager started - 4 threads active
+[ALERT] [!!!] [CRITICAL] [2026-06-01 15:02:04] Door: DOOR OPEN WHILE MOVING - speed is 58 km/h
+[SENSOR UPDATE] Cycle 5 - Engine Temperature: 86.0 °C | Battery Voltage: 13.2 V | Speed: 59.5 km/h | Tire Pressure: 26.7 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[ALERT] [i] [MEDIUM] [2026-06-01 15:02:05] Seatbelt: SEATBELT UNLOCKED - vehicle is in motion
+[ALERT] [!!] [HIGH] [2026-06-01 15:02:07] Battery Voltage: LOW BATTERY - voltage at 9V
+[ALERT] [i] [MEDIUM] [2026-06-01 15:02:07] Seatbelt: SEATBELT UNLOCKED - vehicle is in motion
+[2026-06-01 15:02:08] [SYSTEM] System shutdown - all threads joined
+========================================
+  Vehicle Event Log Ended
+  Timestamp: 2026-06-01 15:02:08
+========================================

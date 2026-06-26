@@ -1,0 +1,86 @@
+========================================
+  Vehicle Event Log Started
+  Timestamp: 2026-05-29 09:49:39
+========================================
+[2026-05-29 09:49:39] [SYSTEM] System startup — all subsystems initialised
+[2026-05-29 09:49:39] [SYSTEM] ThreadManager started — 4 threads active
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:39] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 5 — Engine Temperature: 78.3 °C | Battery Voltage: 11.7 V | Speed: 57.0 km/h | Tire Pressure: 30.5 PSI | Door: OPEN  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:42] Tire Pressure: LOW TIRE PRESSURE — pressure at 21 PSI
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:49:43] Battery Voltage: LOW BATTERY — voltage at 9V
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:43] Tire Pressure: LOW TIRE PRESSURE — pressure at 24 PSI
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:49:43] Door: DOOR OPEN WHILE MOVING — speed is 50 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:43] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 10 — Engine Temperature: 104.1 °C | Battery Voltage: 13.2 V | Speed: 49.2 km/h | Tire Pressure: 31.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 15 — Engine Temperature: 101.7 °C | Battery Voltage: 13.6 V | Speed: 37.5 km/h | Tire Pressure: 30.4 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:49:47] Door: DOOR OPEN WHILE MOVING — speed is 42 km/h
+[SENSOR UPDATE] Cycle 20 — Engine Temperature: 100.7 °C | Battery Voltage: 12.7 V | Speed: 56.4 km/h | Tire Pressure: 34.3 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:49] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:51] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 25 — Engine Temperature: 75.4 °C | Battery Voltage: 12.8 V | Speed: 61.8 km/h | Tire Pressure: 23.3 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[SENSOR UPDATE] Cycle 30 — Engine Temperature: 104.2 °C | Battery Voltage: 11.9 V | Speed: 49.0 km/h | Tire Pressure: 29.9 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 35 — Engine Temperature: 86.9 °C | Battery Voltage: 11.5 V | Speed: 54.3 km/h | Tire Pressure: 33.2 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:49:57] Door: DOOR OPEN WHILE MOVING — speed is 59 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:49:58] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 40 — Engine Temperature: 123.5 °C | Battery Voltage: 13.4 V | Speed: 59.8 km/h | Tire Pressure: 30.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:49:59] Engine Temperature: ENGINE OVERHEAT — temperature at 123°C
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:00] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:01] Door: DOOR OPEN WHILE MOVING — speed is 67 km/h
+[SENSOR UPDATE] Cycle 45 — Engine Temperature: 122.5 °C | Battery Voltage: 13.5 V | Speed: 71.6 km/h | Tire Pressure: 32.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 50 — Engine Temperature: 84.1 °C | Battery Voltage: 12.7 V | Speed: 81.7 km/h | Tire Pressure: 32.2 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:04] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 55 — Engine Temperature: 92.5 °C | Battery Voltage: 11.9 V | Speed: 87.8 km/h | Tire Pressure: 31.0 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:08] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 60 — Engine Temperature: 80.0 °C | Battery Voltage: 11.8 V | Speed: 97.2 km/h | Tire Pressure: 31.8 PSI | Door: OPEN  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:09] Door: DOOR OPEN WHILE MOVING — speed is 97 km/h
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:10] Door: DOOR OPEN WHILE MOVING — speed is 94 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:10] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:11] Door: DOOR OPEN WHILE MOVING — speed is 99 km/h
+[SENSOR UPDATE] Cycle 65 — Engine Temperature: 93.3 °C | Battery Voltage: 12.1 V | Speed: 104.4 km/h | Tire Pressure: 35.1 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:13] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 70 — Engine Temperature: 85.7 °C | Battery Voltage: 12.9 V | Speed: 110.1 km/h | Tire Pressure: 31.1 PSI | Door: OPEN  | Seatbelt: LOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:16] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 75 — Engine Temperature: 81.7 °C | Battery Voltage: 13.2 V | Speed: 99.2 km/h | Tire Pressure: 32.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:18] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:19] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 80 — Engine Temperature: 97.6 °C | Battery Voltage: 12.5 V | Speed: 102.7 km/h | Tire Pressure: 33.8 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[SENSOR UPDATE] Cycle 85 — Engine Temperature: 115.4 °C | Battery Voltage: 12.8 V | Speed: 99.8 km/h | Tire Pressure: 32.4 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:23] Engine Temperature: ENGINE OVERHEAT — temperature at 115°C
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:24] Battery Voltage: LOW BATTERY — voltage at 8V
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:24] Tire Pressure: LOW TIRE PRESSURE — pressure at 23 PSI
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:25] Door: DOOR OPEN WHILE MOVING — speed is 98 km/h
+[SENSOR UPDATE] Cycle 90 — Engine Temperature: 74.2 °C | Battery Voltage: 13.4 V | Speed: 99.2 km/h | Tire Pressure: 34.7 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 95 — Engine Temperature: 112.8 °C | Battery Voltage: 13.7 V | Speed: 96.2 km/h | Tire Pressure: 33.5 PSI | Door: OPEN  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:28] Engine Temperature: ENGINE OVERHEAT — temperature at 112°C
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:28] Door: DOOR OPEN WHILE MOVING — speed is 96 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:28] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 100 — Engine Temperature: 124.3 °C | Battery Voltage: 14.3 V | Speed: 89.4 km/h | Tire Pressure: 33.4 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 105 — Engine Temperature: 92.4 °C | Battery Voltage: 12.7 V | Speed: 82.8 km/h | Tire Pressure: 28.4 PSI | Door: OPEN  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:33] Door: DOOR OPEN WHILE MOVING — speed is 82 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:34] Tire Pressure: LOW TIRE PRESSURE — pressure at 23 PSI
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:34] Door: DOOR OPEN WHILE MOVING — speed is 82 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:34] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 110 — Engine Temperature: 88.0 °C | Battery Voltage: 12.4 V | Speed: 77.9 km/h | Tire Pressure: 29.9 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:37] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 115 — Engine Temperature: 73.3 °C | Battery Voltage: 13.3 V | Speed: 75.3 km/h | Tire Pressure: 35.2 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[SENSOR UPDATE] Cycle 120 — Engine Temperature: 88.8 °C | Battery Voltage: 13.3 V | Speed: 74.0 km/h | Tire Pressure: 30.8 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:41] Engine Temperature: ENGINE OVERHEAT — temperature at 114°C
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:41] Battery Voltage: LOW BATTERY — voltage at 8V
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:42] Door: DOOR OPEN WHILE MOVING — speed is 77 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:43] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 125 — Engine Temperature: 85.6 °C | Battery Voltage: 13.1 V | Speed: 74.5 km/h | Tire Pressure: 35.0 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:45] Battery Voltage: LOW BATTERY — voltage at 8V
+[SENSOR UPDATE] Cycle 130 — Engine Temperature: 89.2 °C | Battery Voltage: 12.1 V | Speed: 69.0 km/h | Tire Pressure: 32.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:47] Door: DOOR OPEN WHILE MOVING — speed is 67 km/h
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:48] Door: DOOR OPEN WHILE MOVING — speed is 71 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:48] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[SENSOR UPDATE] Cycle 135 — Engine Temperature: 101.9 °C | Battery Voltage: 13.5 V | Speed: 74.7 km/h | Tire Pressure: 29.8 PSI | Door: CLOSED  | Seatbelt: LOCKED  | 
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:49] Door: DOOR OPEN WHILE MOVING — speed is 78 km/h
+[ALERT] [!!] [WARNING] [2026-05-29 09:50:49] Seatbelt: SEATBELT UNLOCKED — vehicle is in motion
+[ALERT] [!!!] [CRITICAL] [2026-05-29 09:50:50] Door: DOOR OPEN WHILE MOVING — speed is 77 km/h
+[SENSOR UPDATE] Cycle 140 — Engine Temperature: 81.6 °C | Battery Voltage: 13.2 V | Speed: 81.3 km/h | Tire Pressure: 27.8 PSI | Door: CLOSED  | Seatbelt: UNLOCKED  | 
+[2026-05-29 09:50:51] [SYSTEM] System shutdown — all threads joined
+========================================
+  Vehicle Event Log Ended
+  Timestamp: 2026-05-29 09:50:51
+========================================

@@ -1,0 +1,11 @@
+Topic,Inputs,Expected Result,Result (Passed/Failed)
+Normal operation,"Engine Temp=95°C, Battery=12.5V, Speed=50 km/h, Tire Pressure=32 PSI, Door=Closed, Seatbelt=Locked","No Alerts, System Status=NORMAL",Passed
+Engine overheat,"Engine Temp=115°C, Battery=12.5V, Speed=50 km/h, Tire Pressure=32 PSI, Door=Closed, Seatbelt=Locked","ENGINE OVERHEAT Alert, Status=CRITICAL",Passed
+Low battery,"Engine Temp=90°C, Battery=9.99V, Speed=50 km/h, Tire Pressure=32 PSI, Door=Closed, Seatbelt=Locked","LOW BATTERY Alert, Status=WARNING",Passed
+Overspeed,"Engine Temp=90°C, Battery=12V, Speed=121 km/h, Tire Pressure=32 PSI, Door=Closed, Seatbelt=Locked","OVERSPEED WARNING Alert, Status=WARNING",Passed
+Door open while moving,"Engine Temp=90°C, Battery=12V, Speed=11 km/h, Tire Pressure=32 PSI, Door=Open, Seatbelt=Locked","DOOR OPEN Alert, Status=CRITICAL",Passed
+Seatbelt unlocked while moving,"Engine Temp=90°C, Battery=12V, Speed=1 km/h, Tire Pressure=32 PSI, Door=Closed, Seatbelt=Unlocked","SEATBELT Alert, Status=NORMAL",Passed
+Low tire pressure,"Engine Temp=90°C, Battery=12V, Speed=40 km/h, Tire Pressure=24.99 PSI, Door=Closed, Seatbelt=Locked","LOW TIRE PRESSURE Alert, Status=NORMAL",Passed
+All non-critical alerts together,"Engine Temp=95°C, Battery=9V, Speed=130 km/h, Tire Pressure=20 PSI, Door=Closed, Seatbelt=Unlocked","LOW BATTERY + OVERSPEED WARNING + SEATBELT + LOW TIRE PRESSURE Alerts, Status=WARNING",Passed
+All alerts together,"Engine Temp=120°C, Battery=9V, Speed=130 km/h, Tire Pressure=20 PSI, Door=Open, Seatbelt=Unlocked","ENGINE OVERHEAT + DOOR OPEN + LOW BATTERY + OVERSPEED WARNING + SEATBELT + LOW TIRE PRESSURE Alerts, Status=CRITICAL",Passed
+Boundary value verification,"Engine Temp=110°C, Battery=10V, Speed=120 km/h, Tire Pressure=25 PSI, Door=Open, Seatbelt=Unlocked","DOOR OPEN + SEATBELT Alerts, Status=CRITICAL",Passed

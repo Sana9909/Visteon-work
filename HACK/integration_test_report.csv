@@ -1,0 +1,12 @@
+Report Generated,2026-04-15 20:18:01
+
+TC,Test condition,Expected Outcome,Observed Outcome,Status (pass or fail)
+"T1. Normal Start","Mode: ACC -> IGNITION_ON -> IGNITION_ON [S:40 T:80 G:1]","No faults, NORMAL state","Mode=IGNITION_ON, State=NORMAL, Faults=NONE","PASS"
+"T2. Overspeed Detection","Mode: IGNITION_ON [S:130 T:85 G:4]","Overspeed fault set, fault counter incremented, DEGRADED state","Mode=IGNITION_ON, State=DEGRADED, Faults=OVERSPEED","PASS"
+"T3. High Temperature Warning","Mode: IGNITION_ON [S:60 T:100 G:3]","High temperature warning raised, no crash, correct priority handling","Mode=IGNITION_ON, State=DEGRADED, Faults=HIGH_TEMP","PASS"
+"T4. Critical Overheat","Mode: IGNITION_ON [S:60 T:115 G:3]","Critical fault raised, state escalated, fault reason logged","Mode=IGNITION_ON, State=DEGRADED, Faults=CRIT_OVERHEAT","PASS"
+"T5. Invalid Gear","Mode: IGNITION_ON [S:60 T:80 G:0]","Invalid gear fault raised, safe handling, no crash","Mode=IGNITION_ON, State=DEGRADED, Faults=INV_GEAR","PASS"
+"T6. Illegal Mode Transition","Mode: IGNITION_ON [S:0 T:25 G:0]","Illegal transition detected, FAULT mode triggered","Mode=FAULT, State=DEGRADED, Faults=ILL_MODE","PASS"
+"T7. Multiple Faults in One Cycle","Mode: IGNITION_ON [S:140 T:120 G:0]","All three faults set, highest priority respected, state escalated to SAFE","Mode=FAULT, State=SAFE, Faults=OVERSPEED, CRIT_OVERHEAT, INV_GEAR","PASS"
+"T8. Persistent Fault Across Cycles","Mode: IGNITION_ON -> IGNITION_ON -> IGNITION_ON [S:60 T:115 G:3]","Fault counter increments each cycle, SAFE state reached","Mode=FAULT, State=SAFE, Faults=CRIT_OVERHEAT, ILL_MODE","PASS"
+"T9. Recovery and Reset Logic","Mode: IGNITION_ON -> IGNITION_ON [S:40 T:80 G:2]","Without OFF reset, SAFE latch remains and state does not return to NORMAL","Mode=FAULT, State=SAFE, Faults=ILL_MODE","PASS"

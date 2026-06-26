@@ -1,0 +1,29 @@
+Test Case,Module Name,Cycle Min,Cycle Max,Cycle Average,Code size,Data size
+"TEST CASE 1: Runtime Polymorphism & Sensor Interface","instantiate_sensors",6274,24726,6668,19364,16
+"TEST CASE 1: Runtime Polymorphism & Sensor Interface","update_polymorphic",46,12640,176,19364,16
+"TEST CASE 1: Runtime Polymorphism & Sensor Interface","verify_sensor_count",44,326,49,19364,16
+"TEST CASE 2: Engine Coolant Overheat Critical Threshold","set_nominal_value",46,358,52,19364,16
+"TEST CASE 2: Engine Coolant Overheat Critical Threshold","evaluate_sensors",172,3310,215,39088,32
+"TEST CASE 2: Engine Coolant Overheat Critical Threshold","trigger_critical_alert",186,34358,544,39088,32
+"TEST CASE 3: Battery Low Voltage Critical Threshold","set_nominal_value",46,200,50,19364,16
+"TEST CASE 3: Battery Low Voltage Critical Threshold","evaluate_sensors",182,1386,206,39088,32
+"TEST CASE 3: Battery Low Voltage Critical Threshold","trigger_critical_alert",184,3688,229,39088,32
+"TEST CASE 4: Tire Deflation Warning Threshold","set_nominal_value",44,214,48,19364,16
+"TEST CASE 4: Tire Deflation Warning Threshold","evaluate_sensors",194,1748,216,39088,32
+"TEST CASE 4: Tire Deflation Warning Threshold","trigger_warning_alert",186,4258,239,39088,32
+"TEST CASE 5: Overspeed Warning Threshold","set_nominal_value",44,218,50,19364,16
+"TEST CASE 5: Overspeed Warning Threshold","evaluate_sensors",192,1902,219,39088,32
+"TEST CASE 5: Overspeed Warning Threshold","trigger_warning_alert",192,3010,232,39088,32
+"TEST CASE 6: Door Open while Vehicle in Motion Complex Alert","set_open_door_stationary",250,4190,301,39088,32
+"TEST CASE 6: Door Open while Vehicle in Motion Complex Alert","set_open_door_low_speed",252,390,257,39088,32
+"TEST CASE 6: Door Open while Vehicle in Motion Complex Alert","trigger_complex_alert",256,6772,333,39088,32
+"TEST CASE 7: Seatbelt Unlocked while Vehicle in Motion Complex Alert","set_unlocked_seatbelt_stationary",236,2632,275,39088,32
+"TEST CASE 7: Seatbelt Unlocked while Vehicle in Motion Complex Alert","set_locked_seatbelt_moving",236,2836,273,39088,32
+"TEST CASE 7: Seatbelt Unlocked while Vehicle in Motion Complex Alert","trigger_complex_alert",230,1310,251,39088,32
+"TEST CASE 8: Copy/Move Semantics (Rule of Five) & Lifetime RAII","construct_alert",200,784,215,39088,32
+"TEST CASE 8: Copy/Move Semantics (Rule of Five) & Lifetime RAII","copy_construct_alert",226,612,242,39088,32
+"TEST CASE 8: Copy/Move Semantics (Rule of Five) & Lifetime RAII","move_construct_alert",246,840,260,39088,32
+"TEST CASE 9: Template Logger, RAII & Lambda search","open_and_write_logs",3098,52406,4720,32040,16
+"TEST CASE 9: Template Logger, RAII & Lambda search","lambda_filter_search",5688,54953,13279,32040,16
+"TEST CASE 9: Template Logger, RAII & Lambda search","raii_file_flush",1018,65772,2508,32040,16
+"TEST CASE 10: SafeQueue Thread-Safe Concurrency & Synchronization","thread_concurrency",324,5928,899,42244,0

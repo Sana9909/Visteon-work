@@ -1,0 +1,6 @@
+Test Case,T9. Recovery and Reset Logic
+Timestamp,2026-04-15 20:18:01
+
+Cycle,read_inputs,validate_inputs,update_mode,run_control_checks,update_fault_status,evaluate_system_state,Total
+1,30,276,124,148,188,234,1000
+2,32,36,90,110,194,118,580

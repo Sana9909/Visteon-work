@@ -1,0 +1,5 @@
+Test Case,T2. Overspeed Detection
+Timestamp,2026-04-15 20:18:01
+
+Cycle,read_inputs,validate_inputs,update_mode,run_control_checks,update_fault_status,evaluate_system_state,Total
+1,92,1140,380,364,482,444,2902

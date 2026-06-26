@@ -1,0 +1,21 @@
+Test Case,Module Name,CPU Cycles,Code size,Data size
+"Tick 1: Normal operation","SensorManager",50,4096,128
+"Tick 1: Normal operation","AlertManager",142,8192,256
+"Tick 2: Engine overheat","SensorManager",54,4096,128
+"Tick 2: Engine overheat","AlertManager",268,8192,256
+"Tick 3: Low battery","SensorManager",62,4096,128
+"Tick 3: Low battery","AlertManager",230,8192,256
+"Tick 4: Overspeed","SensorManager",50,4096,128
+"Tick 4: Overspeed","AlertManager",226,8192,256
+"Tick 5: Door open while moving","SensorManager",64,4096,128
+"Tick 5: Door open while moving","AlertManager",184,8192,256
+"Tick 6: Seatbelt unlocked while moving","SensorManager",64,4096,128
+"Tick 6: Seatbelt unlocked while moving","AlertManager",220,8192,256
+"Tick 7: Low tire pressure","SensorManager",28,4096,128
+"Tick 7: Low tire pressure","AlertManager",124,8192,256
+"Tick 8: All non-critical alerts together","SensorManager",26,4096,128
+"Tick 8: All non-critical alerts together","AlertManager",122,8192,256
+"Tick 9: All alerts together","SensorManager",50,4096,128
+"Tick 9: All alerts together","AlertManager",224,8192,256
+"Tick 10: Boundary value verification","SensorManager",46,4096,128
+"Tick 10: Boundary value verification","AlertManager",212,8192,256
