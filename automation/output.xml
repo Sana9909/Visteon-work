@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.12.3 on linux)" generated="2026-06-11T06:18:10.312148" rpa="false" schemaversion="5">
+<suite id="s1" name="Climate" source="/mnt/c/automation/tests/climate.robot">
+<test id="s1-t1" name="Enable HVAC Power" line="7">
+<kw name="Set Hvac Power" owner="climate_keywords">
+<msg time="2026-06-11T06:18:12.046204" level="INFO">/bin/sh: 1: adb: not found</msg>
+<msg time="2026-06-11T06:18:12.046460" level="FAIL">/bin/sh: 1: adb: not found
+</msg>
+<arg>${True}</arg>
+<status status="FAIL" start="2026-06-11T06:18:11.601490" elapsed="0.461699">/bin/sh: 1: adb: not found
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-11T06:18:12.063632" elapsed="0.000052"/>
+</kw>
+<status status="FAIL" start="2026-06-11T06:18:11.600523" elapsed="0.463472">/bin/sh: 1: adb: not found
+</status>
+</test>
+<test id="s1-t2" name="Enable AC" line="14">
+<kw name="Set Ac" owner="climate_keywords">
+<msg time="2026-06-11T06:18:12.500782" level="INFO">/bin/sh: 1: adb: not found</msg>
+<msg time="2026-06-11T06:18:12.500989" level="FAIL">/bin/sh: 1: adb: not found
+</msg>
+<arg>${True}</arg>
+<status status="FAIL" start="2026-06-11T06:18:12.064652" elapsed="0.442030">/bin/sh: 1: adb: not found
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-11T06:18:12.507033" elapsed="0.000038"/>
+</kw>
+<status status="FAIL" start="2026-06-11T06:18:12.064297" elapsed="0.443073">/bin/sh: 1: adb: not found
+</status>
+</test>
+<test id="s1-t3" name="Verify Fan Speed 5" line="21">
+<kw name="Set Fan Speed" owner="climate_keywords">
+<msg time="2026-06-11T06:18:12.946287" level="INFO">/bin/sh: 1: adb: not found</msg>
+<msg time="2026-06-11T06:18:12.946487" level="FAIL">/bin/sh: 1: adb: not found
+</msg>
+<arg>5</arg>
+<status status="FAIL" start="2026-06-11T06:18:12.508074" elapsed="0.444033">/bin/sh: 1: adb: not found
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-11T06:18:12.952438" elapsed="0.000038"/>
+</kw>
+<kw name="Get Fan Speed" owner="climate_keywords">
+<var>${speed}</var>
+<status status="NOT RUN" start="2026-06-11T06:18:12.952662" elapsed="0.000033"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${speed}</arg>
+<arg>5</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2026-06-11T06:18:12.952860" elapsed="0.000026"/>
+</kw>
+<status status="FAIL" start="2026-06-11T06:18:12.507739" elapsed="0.445397">/bin/sh: 1: adb: not found
+</status>
+</test>
+<test id="s1-t4" name="Set Temperature To 22" line="32">
+<kw name="Set Temperature" owner="climate_keywords">
+<msg time="2026-06-11T06:18:13.399412" level="INFO">/bin/sh: 1: adb: not found</msg>
+<msg time="2026-06-11T06:18:13.399604" level="FAIL">/bin/sh: 1: adb: not found
+</msg>
+<arg>22</arg>
+<status status="FAIL" start="2026-06-11T06:18:12.953729" elapsed="0.451489">/bin/sh: 1: adb: not found
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-06-11T06:18:13.405676" elapsed="0.000042"/>
+</kw>
+<status status="FAIL" start="2026-06-11T06:18:12.953393" elapsed="0.452673">/bin/sh: 1: adb: not found
+</status>
+</test>
+<test id="s1-t5" name="Enable Dual Mode" line="39">
+<kw name="Set Dual Mode" owner="climate_keywords">
+<msg time="2026-06-11T06:18:13.756346" level="INFO">/bin/sh: 1: adb: not found</msg>
+<msg time="2026-06-11T06:18:13.756482" level="FAIL">/bin/sh: 1: adb: not found
+</msg>
+<arg>${True}</arg>
+<status status="FAIL" start="2026-06-11T06:18:13.406742" elapsed="0.353507">/bin/sh: 1: adb: not found
+</status>
+</kw>
+<status status="FAIL" start="2026-06-11T06:18:13.406400" elapsed="0.354384">/bin/sh: 1: adb: not found
+</status>
+</test>
+<status status="FAIL" start="2026-06-11T06:18:10.317274" elapsed="3.444074"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Climate" id="s1" pass="0" fail="5" skip="0">Climate</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

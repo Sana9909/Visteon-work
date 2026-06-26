@@ -1,0 +1,11 @@
+{
+    "fan_speed": {
+        "min": 0,
+        "max": 7
+    },
+
+    "temperature": {
+        "min": 16,
+        "max": 32
+    }
+}
