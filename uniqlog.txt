@@ -1,0 +1,229 @@
+01-01 05:30:06.197   489   489 I UclGen_SomeIpProxy: UCL VERSION : @UCL_VERSION@
+01-01 05:30:06.205   489   489 I UclGen_SomeIpAdapter: UCL App Created Successfully
+01-01 05:30:06.221   489   489 I UclGen_SomeIpAdapter: UCL- SOMEIP Service is Running 
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: SignalListenerThread Create Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.221   489   489 I UclILRouter_Impl: IUclILRouter_Initialize: Success 0
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALPhySerialAndroid_Impl_Hw_Initialize: Device /dev/ttyS1 opened
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_SemCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_TaskCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_TaskCreate: Success
+01-01 05:30:06.224   489   489 I UclALPhySerialAndroid_Impl_IUclALPhy_Initialize: Success
+01-01 05:30:06.224   489   489 I UclDL_Impl: Inst 0 PeerReady: Link UP 
+01-01 05:30:06.224   489   489 I UclDL_Impl: SecurityStartKeyNegotiation: Auth State : 0
+01-01 05:30:06.224   489   489 I UclDL_Impl: NofityLinkStatusChanged 1
+01-01 05:30:06.225   489   489 I UclGen  : LinkStatusChanged 0, -50
+01-01 05:30:06.225   489   489 I UclDL_Impl: UclDL_Initialize:Inst 0 Success 2
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclILSched_Impl: IUclILSched_Initialize: Success 1
+01-01 05:30:06.225   489   489 I UclSys_Impl: IUclSys_Initialize: Success
+01-01 05:30:06.227   489   512 I UclALPhySerialAndroid_Impl_TransmitTask: Begins
+01-01 05:30:06.232   489   513 I UclALPhySerialAndroid_Impl_ReceiveTask: Begins
+01-01 05:30:06.458   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/16]:service:c7 ,Method:80e2,payload:08 19 02 05 01 00 00 01 
+01-01 07:55:08.471   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/18]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:08.472   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 30
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 26
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 30
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 2
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 2416
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 19328
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 30
+01-01 07:55:08.792   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1c]:service:c0 ,Method:8000,payload:04 
+01-01 07:55:08.797   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1d]:service:c7 ,Method:80e5,payload:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.800   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1e]:service:c7 ,Method:80df,payload:08 04 02 02 01 02 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.831   490   540 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:4, response Payload: 03 00 
+01-01 07:55:08.835   490   540 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:196,method:12, response Payload: 30 33 2e 34 34 30 33 2e 34 34 2e 30 30 00 00 2e 00 00 2e 00 00 00 
+01-01 07:55:08.839   490   544 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: BULK_MSG_SUBSCRIPTION_REQUEST:: 1e 01 97 02 86 01 20 01 2c 01 28 01 15 02 cb 02 d8 01 f4 01 f3 01 d8 02 3b 02 d0 01 fd 02 be 02 d2 01 f8 01 dd 01 de 02 be 02 c6 02 c8 02 c7 01 c0 02 84 02 b5 02 b7 02 b9 01 c6 01 ea 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.839   490   544 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:194,method:1, response Payload: 1e 01 97 02 86 01 20 01 2c 01 28 01 15 02 cb 02 d8 01 f4 01 f3 01 d8 02 3b 02 d0 01 fd 02 be 02 d2 01 f8 01 dd 01 de 02 be 02 c6 02 c8 02 c7 01 c0 02 84 02 b5 02 b7 02 b9 01 c6 01 ea 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.841   490   539 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:3, response Payload: 00 
+01-01 07:55:08.847   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1f]:service:c0 ,Method:8001,payload:01 
+01-01 07:55:08.852   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/20]:service:c0 ,Method:8002,payload:02 00 00 00 
+01-01 07:55:08.852   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/21]:service:c0 ,Method:8003,payload:00 
+01-01 07:55:08.853   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/22]:service:c0 ,Method:8004,payload:01 00 00 00 
+01-01 07:55:08.853   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/23]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/24]:service:c0 ,Method:8006,payload:01 01 01 
+01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01 
+01-01 07:55:08.855   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/25]:service:cf ,Method:8000,payload:00 00 
+01-01 07:55:08.855   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/26]:service:bf ,Method:800d,payload:01 06 00 00 00 7d 00 00 00 00 00 
+01-01 07:55:08.856   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/27]:service:bf ,Method:800f,payload:01 15 00 00 00 02 00 00 00 00 00 
+01-01 07:55:08.856   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/28]:service:bf ,Method:8012,payload:01 28 00 00 00 80 00 ff f0 00 00 
+01-01 07:55:08.857   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/29]:service:bf ,Method:8013,payload:01 2c 00 80 00 00 7d 00 00 00 00 
+01-01 07:55:08.857   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2a]:service:bf ,Method:8014,payload:01 60 00 00 00 00 00 20 00 00 00 
+01-01 07:55:08.858   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2b]:service:bf ,Method:8023,payload:02 7e 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.858   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2c]:service:bf ,Method:8024,payload:02 7f 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.860   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2d]:service:bf ,Method:8025,payload:02 80 00 00 00 00 28 00 00 00 00 
+01-01 07:55:08.860   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2e]:service:bf ,Method:8027,payload:02 86 00 00 00 10 00 00 00 00 00 
+01-01 07:55:08.861   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/2f]:service:bf ,Method:802a,payload:02 90 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.861   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/30]:service:bf ,Method:802b,payload:02 96 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.862   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/31]:service:bf ,Method:802c,payload:02 c6 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.862   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/32]:service:bf ,Method:802d,payload:02 c8 00 ff ff ff ff 00 00 00 00 
+01-01 07:55:08.863   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/33]:service:bf ,Method:802f,payload:02 d0 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.863   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/34]:service:bf ,Method:8030,payload:02 d2 00 04 00 00 02 00 00 60 00 
+01-01 07:55:08.864   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/35]:service:bf ,Method:8032,payload:02 e2 00 00 00 00 00 4f 62 d0 00 
+01-01 07:55:08.864   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/36]:service:bf ,Method:8033,payload:03 60 00 00 00 00 00 a0 00 00 00 
+01-01 07:55:08.865   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/37]:service:bf ,Method:8037,payload:03 b2 00 00 00 00 00 00 00 00 80 
+01-01 07:55:08.865   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/38]:service:bf ,Method:803b,payload:01 20 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.866   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/39]:service:bf ,Method:8051,payload:02 84 00 00 00 02 02 78 00 32 40 
+01-01 07:55:08.866   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3a]:service:bf ,Method:805c,payload:02 c7 00 ff ff ff ff 00 00 00 00 
+01-01 07:55:08.867   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3b]:service:bf ,Method:805f,payload:01 03 00 00 00 30 00 00 00 00 00 
+01-01 07:55:08.867   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3c]:service:c7 ,Method:80e3,payload:27 
+01-01 07:55:08.868   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3d]:service:ca ,Method:80e4,payload:00 00 ff 1f 00 00 00 00 00 00 00 00 00 01 00 01 00 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 31 30 31 32 34 a5 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 00 50 44 38 36 37 39 36 33 30 37 34 34 36 33 31 39 32 00 00 00 00 00 00 00 a5 32 30 32 34 2f 30 31 2f 30 31 00 1a 2b 3c 4d 5e 6f a5 aa bb cc ab cd ef a5 30 30 a5 
+01-01 07:55:08.869   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3e]:service:cb ,Method:8007,payload:30 32 2e 30 30 2e 31 32 30 33 2e 34 34 2e 30 30 03 00 00 00 0d 33 30 34 34 52 30 33 41 30 37 a5 
+01-01 07:55:08.870   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/3f]:service:cb ,Method:800a,payload:30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 35 34 38 35 31 36 32 37 32 30 30 32 41 00 00 30 30 35 34 38 35 31 36 32 37 32 30 30 32 41 00 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 35 34 34 32 31 36 32 37 32 30 32 31 42 00 00 30 35 34 39 37 31 36 32 37 32 30 30 32 4e 53 00 00 56 50 50 54 4c 46 2d 31 30 45 38 38 39 2d 41 4e 00 00 00 00 30 30 35 34 38 35 31 36 32 37 31 32 30 32 48 00 00 30 30 35 34 38 35 31 36 33 30 31 31 30 32 4a 00 00 
+01-01 07:55:08.871   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/40]:service:102 ,Method:8000,payload:01 01 
+01-01 07:55:08.871   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/41]:service:bf ,Method:8017,payload:01 97 01 00 08 56 00 0f 02 00 00 
+01-01 07:55:08.874   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/42]:service:bf ,Method:8044,payload:01 de 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.875   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/43]:service:bf ,Method:8045,payload:01 dd 01 90 00 00 00 00 00 00 00 
+01-01 07:55:08.876   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/44]:service:bf ,Method:801c,payload:01 e9 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.879   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/45]:service:bf ,Method:8007,payload:1e 01 97 01 02 86 01 01 20 01 01 2c 01 01 28 01 01 15 01 02 cb 01 02 d8 01 01 f4 01 01 f3 01 01 d8 01 02 3b 01 02 d0 01 01 fd 01 02 be 01 02 d2 01 01 f8 01 01 dd 01 01 de 01 02 be 01 02 c6 01 02 c8 01 02 c7 01 01 c0 01 02 84 01 02 b5 01 02 b7 01 02 b9 01 01 c6 01 01 ea 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.880   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/46]:service:bf ,Method:801b,payload:01 d8 01 71 45 1d 00 00 00 00 00 
+01-01 07:55:08.887   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/47]:service:bf ,Method:8046,payload:01 c6 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.890   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/48]:service:bf ,Method:8022,payload:02 3b 01 13 00 12 e0 00 08 00 00 
+01-01 07:55:08.895   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/49]:service:bf ,Method:8057,payload:02 a1 01 00 03 00 00 00 00 00 00 
+01-01 07:55:08.896   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4a]:service:bf ,Method:800f,payload:01 15 00 00 00 02 00 00 00 00 00 
+01-01 07:55:08.897   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4b]:service:bf ,Method:8012,payload:01 28 00 00 00 80 00 ff f0 00 00 
+01-01 07:55:08.897   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4c]:service:bf ,Method:8013,payload:01 2c 00 80 00 00 7d 00 00 00 00 
+01-01 07:55:08.898   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4d]:service:bf ,Method:8027,payload:02 86 00 00 00 10 00 00 00 00 00 
+01-01 07:55:08.898   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4e]:service:bf ,Method:802c,payload:02 c6 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.899   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/4f]:service:bf ,Method:802d,payload:02 c8 00 ff ff ff ff 00 00 00 00 
+01-01 07:55:08.900   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/50]:service:bf ,Method:802f,payload:02 d0 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.900   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/51]:service:bf ,Method:8030,payload:02 d2 00 04 00 00 02 00 00 60 00 
+01-01 07:55:08.901   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/52]:service:bf ,Method:803b,payload:01 20 00 00 00 00 00 00 00 00 00 
+01-01 07:55:08.901   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/53]:service:bf ,Method:8051,payload:02 84 00 00 00 02 02 78 00 32 40 
+01-01 07:55:08.902   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/54]:service:cf ,Method:8000,payload:00 00 
+01-01 07:55:08.902   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/55]:service:bf ,Method:805c,payload:02 c7 00 ff ff ff ff 00 00 00 00 
+01-01 07:55:08.903   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/56]:service:bf ,Method:803d,payload:02 b5 01 82 77 a2 03 00 00 00 08 
+01-01 07:55:08.906   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/57]:service:bf ,Method:802e,payload:02 cb 01 85 00 00 00 61 80 00 00 
+01-01 07:55:08.907   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/58]:service:bf ,Method:8031,payload:02 d8 01 81 00 20 02 00 00 00 00 
+01-01 07:55:08.909   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/59]:service:bf ,Method:8034,payload:03 a0 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.910   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5a]:service:bf ,Method:8035,payload:03 a1 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.912   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5b]:service:bf ,Method:8036,payload:03 a3 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.913   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5c]:service:bf ,Method:803a,payload:03 a2 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.914   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5d]:service:bf ,Method:806b,payload:04 fa 01 01 60 f5 00 00 00 77 42 
+01-01 07:55:08.915   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5e]:service:bf ,Method:8058,payload:02 b7 01 00 00 00 00 00 00 00 00 
+01-01 07:55:08.931   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/5f]:service:bf ,Method:8059,payload:02 b9 01 00 00 00 00 00 00 00 08 
+01-01 07:55:08.951   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/60]:service:bf ,Method:805a,payload:02 bc 01 00 ea 60 00 00 40 b6 80 
+01-01 07:55:08.971   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/61]:service:bf ,Method:8055,payload:02 be 01 00 00 00 00 00 00 01 00 
+01-01 07:55:08.999   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/62]:service:bf ,Method:8017,payload:01 97 01 00 08 56 00 06 02 00 00 
+01-01 07:55:09.003   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/63]:service:c7 ,Method:80e2,payload:09 19 02 05 01 00 00 01 
+01-01 07:55:09.099   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/64]:service:bf ,Method:803d,payload:02 b5 01 82 77 a2 03 00 00 00 08 
+01-01 07:55:09.101   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/65]:service:bf ,Method:8055,payload:02 be 01 00 00 00 00 00 00 01 00 
+01-01 07:55:09.102   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/66]:service:bf ,Method:8057,payload:02 a1 01 00 03 00 00 00 00 00 00 
+01-01 07:55:09.103   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/67]:service:bf ,Method:8058,payload:02 b7 01 00 00 00 00 00 00 00 00 
+01-01 07:55:09.104   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/68]:service:bf ,Method:8059,payload:02 b9 01 00 00 00 00 00 00 00 08 
+01-01 07:55:09.105   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/69]:service:bf ,Method:805a,payload:02 bc 01 00 ea 60 00 00 40 b6 80 
+01-01 07:55:09.476   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/6b]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:09.477   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 117
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 108
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 117
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 7992
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 18752
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 16
+01-01 07:55:09.799   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/6e]:service:c0 ,Method:8000,payload:04 
+01-01 07:55:09.803   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/6f]:service:c7 ,Method:80e5,payload:02 00 00 01 0f 01 3e 00 08 00 00 00 00 00 00 1e 00 00 00 00 09 00 00 00 00 02 01 01 0e 2c 04 bc 01 a2 06 aa 01 d7 02 e9 02 ce 01 00 00 00 00 01 01 02 19 09 1b 79 8f 0d 19 0a e9 00 1f 1e b8 89 7f 00 07 00 0b 00 20 02 22 00 c2 00 00 00 00 00 00 00 00 01 00 07 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 32 00 00 04 07 0a 0f 14 00 a8 02 00 03 00 00 00 00 00 c0 00 02 00 00 00 00 00 00 02 d2 02 cb 02 d0 03 03 03 03 01 00 00 00 00 00 00 a5 00 00 00 00 0e c9 03 00 01 00 0b 0b 0b a5 07 04 f2 33 30 34 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:09.806   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/70]:service:c7 ,Method:80df,payload:08 04 02 02 01 02 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:09.842   490   539 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:3, response Payload: 00 
+01-01 07:55:09.855   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/72]:service:c0 ,Method:8006,payload:01 01 01 
+01-01 07:55:09.855   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01 
+01-01 07:55:09.856   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/73]:service:c5 ,Method:80df,payload:ff 00 
+01-01 07:55:09.856   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:198,method:1, response Payload: ff 00 
+01-01 07:55:09.887   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/74]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:09.939   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/75]:service:c5 ,Method:80df,payload:04 ff 
+01-01 07:55:09.999   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/76]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:10.011   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/77]:service:c7 ,Method:80e2,payload:0a 19 02 05 01 00 00 01 
+01-01 07:55:10.059   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/78]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:10.119   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/79]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:10.219   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/7b]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:10.419   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/7d]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:10.479   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/7e]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:10.479   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:10.519   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/80]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:10.619   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/81]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:10.724   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/83]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 130
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 141
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1960
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 13200
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 7
+01-01 07:55:10.803   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/84]:service:c0 ,Method:8000,payload:04 
+01-01 07:55:10.807   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/85]:service:c7 ,Method:80e5,payload:02 00 00 01 0f 01 3e 00 08 00 16 00 00 00 00 1e 00 00 00 00 09 00 00 00 00 02 01 01 0e 2c 04 b9 01 a4 06 ab 01 d7 02 e9 02 d3 01 00 00 00 00 01 01 02 19 0a 1b 79 8f 0d 19 0a e9 00 1e 1e b8 89 7f 00 07 00 0a 00 20 02 22 00 c2 00 00 00 00 00 00 00 00 01 00 07 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 32 00 00 04 07 0a 0f 14 00 a8 02 00 03 00 00 00 00 00 c0 00 02 00 00 00 00 00 00 02 ce 02 cd 02 cf 03 03 03 03 01 00 00 00 00 00 00 a5 00 00 00 00 0e c8 03 00 01 00 0b 0b 0b a5 07 04 f2 33 30 34 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:10.808   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/86]:service:c7 ,Method:80df,payload:08 04 02 02 01 02 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:10.823   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/87]:service:c5 ,Method:80df,payload:04 ff 
+01-01 07:55:10.842   490   539 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:3, response Payload: 00 
+01-01 07:55:10.871   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/88]:service:c0 ,Method:8006,payload:01 01 01 
+01-01 07:55:10.871   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01 
+01-01 07:55:10.923   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/89]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:11.015   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/8a]:service:c7 ,Method:80e2,payload:0b 19 02 05 01 00 00 01 
+01-01 07:55:11.023   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/8b]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:11.123   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/8c]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:11.223   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/8e]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:11.324   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/8f]:service:c5 ,Method:80df,payload:04 ff 
+01-01 07:55:11.423   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/90]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:11.487   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/91]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:11.487   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:11.527   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/93]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:11.627   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/94]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:11.729   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/96]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 161
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 149
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 161
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1616
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5208
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 7
+01-01 07:55:11.808   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/97]:service:c0 ,Method:8000,payload:04 
+01-01 07:55:11.813   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/98]:service:c7 ,Method:80e5,payload:02 00 00 01 0f 01 3e 00 08 00 16 00 00 00 00 1e 00 00 00 00 09 00 00 00 00 02 01 01 0e 2c 04 b9 01 a4 06 b1 01 d7 02 e9 02 da 01 00 00 00 00 01 01 02 19 0b 1b 79 8f 0d 19 0a e9 00 1e 1e ba 89 7f 00 07 00 0b 00 20 02 22 00 c2 00 00 00 00 00 00 00 00 01 00 07 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 32 00 00 04 07 0a 0f 14 00 a8 02 00 03 00 00 00 00 00 c0 00 02 00 00 00 00 00 00 02 cf 02 c3 02 cf 03 03 03 03 01 00 00 00 00 00 00 a5 00 00 00 00 0e c8 03 00 01 00 0b 0b 0b a5 07 04 f2 33 30 34 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:11.814   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/99]:service:c7 ,Method:80df,payload:08 04 02 02 01 02 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01-01 07:55:11.827   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9a]:service:c5 ,Method:80df,payload:04 ff 
+01-01 07:55:11.843   490   539 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:3, response Payload: 00 
+01-01 07:55:11.887   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9b]:service:c0 ,Method:8006,payload:01 01 01 
+01-01 07:55:11.888   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01 
+01-01 07:55:11.927   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9c]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:12.025   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9d]:service:c7 ,Method:80e2,payload:0c 19 02 05 01 00 00 01 
+01-01 07:55:12.027   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9e]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:12.127   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/9f]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:12.227   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a1]:service:c5 ,Method:80df,payload:01 ff 
+01-01 07:55:12.328   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a2]:service:c5 ,Method:80df,payload:04 ff 
+01-01 07:55:12.431   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a3]:service:c5 ,Method:80df,payload:02 00 
+01-01 07:55:12.492   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a4]:service:c0 ,Method:8005,payload:03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:12.492   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00 
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: pollingCntr : 3492
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 504
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 328
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:12.531   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a6]:service:c5 ,Method:80df,payload:03 00 
+01-01 07:55:12.631   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a7]:service:c5 ,Method:80df,payload:05 00 
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 180
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 167
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 180
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1536
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5128
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:12.811   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/a9]:service:c0 ,Method:8000,payload:04 
