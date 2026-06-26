@@ -1,0 +1,45 @@
+Title: Fault Flag Manager (A3-Q2)
+
+Problem Statement:  
+In embedded systems, faults are tracked using bit flags.
+
+Implement two functions:
+
+c
+void set_fault(int *flags, int bit);   // sets bit in flags
+void clear_fault(int *flags, int bit); // clears bit in flags
+Fault Bit Map:
+
+Bit 0 → OverSpeed
+
+Bit 1 → OverTemperature
+
+Bit 2 → SensorFailure
+
+Program Flow:
+
+Read N operations of the form:
+
+SET <bit> → set that bit
+
+CLR <bit> → clear that bit
+
+After all operations, print:
+
+Code
+FaultRegister: 0x<hex>
+Acceptance Criteria:
+
+✅ Pointer access to flags
+
+✅ set_fault uses |= with bit shift
+
+✅ clear_fault uses &= ~
+
+✅ Correct hex output
+
+Input/Output Spec:
+
+Inputs: N lines of SET/CLR bit
+
+Outputs: FaultRegister: 0xXX

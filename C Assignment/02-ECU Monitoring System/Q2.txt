@@ -1,0 +1,55 @@
+Title: ECU Monitoring System (Intermediate Level)
+
+Problem Statement:
+Simulate a basic ECU (Engine Control Unit) monitoring system.
+The program should read three values:
+
+Speed (km/h)
+
+Engine Temperature (°C)
+
+Gear Position
+
+Checks to perform:
+
+Speed check:
+
+If speed > 120 → "Warning: Overspeed"
+
+Else → "Speed Normal"
+
+Temperature check:
+
+If temp > 110 → "Critical Overheat"
+
+Else if temp > 95 → "High Temperature"
+
+Else → "Temperature Normal"
+
+Gear check (switch-case):
+
+0 → Neutral
+
+1 → First Gear
+
+2 → Second Gear
+
+3 → Third Gear
+
+4 → Fourth Gear
+
+5 → Fifth Gear
+
+Else → "Invalid Gear"
+
+Additional Requirement:
+
+Run inside a while(1) loop (exit when scanf fails).
+
+Acceptance Criteria:
+
+All speed, temperature, and gear checks implemented
+
+Switch-case used for gear
+
+Continuous loop with exit on input failure

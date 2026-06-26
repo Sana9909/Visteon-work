@@ -1,0 +1,27 @@
+Title: Dynamic Sensor Buffer (A6-Q1)
+
+Problem Statement:  
+Dynamically allocate an array of N integers using malloc().
+Read N values, compute sum and average, then free the memory.
+
+Expected Output:
+
+Code
+Sum: <sum>
+Avg: <avg>.XX
+Memory freed.
+Acceptance Criteria:
+
+✅ malloc() used for dynamic allocation
+
+✅ free() called to release memory
+
+✅ Correct sum and average calculation
+
+✅ "Memory freed." printed
+
+Input/Output Spec:
+
+Inputs: N integers
+
+Outputs: Sum, Avg (2 decimal places), and confirmation of memory freed

@@ -1,0 +1,28 @@
+Title: Speed Update via Pointer (A3-Q1)
+
+Problem Statement:  
+Write a function update_speed(int *speed, int new_speed) that:
+
+Updates the speed variable through a pointer
+
+Returns 0 (success) if 0 <= new_speed <= 250
+
+Returns -1 (failure) if new_speed is out of range
+
+In main(), read two speeds. Call update_speed for each. Print updated value or "Invalid Speed" based on return code.
+
+Acceptance Criteria:
+
+Pointer argument used
+
+Return code 0/-1
+
+Range validation
+
+Correct output
+
+Input/Output Spec:
+
+Inputs: Two integers (Speed1, Speed2)
+
+Outputs: Updated speed or "Invalid Speed" per line

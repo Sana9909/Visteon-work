@@ -1,0 +1,36 @@
+Title: CAN Frame Union (A5-Q2)
+
+Problem Statement:  
+In CAN bus, a 4-byte data frame can be viewed as individual bytes or as a 32-bit word.
+
+Define a union CANFrame with:
+
+c
+uint32_t raw;
+uint8_t  bytes[4];
+Steps:
+
+Read a 32-bit hex value (e.g., 0xDEADBEEF).
+
+Store it in raw.
+
+Print each byte separately in little-endian order:
+
+Code
+Byte0: 0xEF
+Byte1: 0xBE
+Byte2: 0xAD
+Byte3: 0xDE
+Acceptance Criteria:
+
+✅ Union used
+
+✅ uint32_t raw + uint8_t bytes[4]
+
+✅ Correct little-endian output
+
+Input/Output Spec:
+
+Input: Hex value (e.g., DEADBEEF)
+
+Output: Byte0..Byte3 in hex

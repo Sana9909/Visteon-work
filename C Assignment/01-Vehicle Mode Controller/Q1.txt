@@ -1,0 +1,30 @@
+Title: Vehicle Mode Controller (Intermediate Level)
+
+Problem Statement:
+Design and implement a Vehicle Mode Controller in C that manages the operating state of a vehicle using an enum and switch-case structure.
+
+The controller must support:
+
+0 → OFF
+
+1 → ACC
+
+2 → IGNITION_ON
+
+3 → FAULT
+
+Other → UNKNOWN_MODE
+
+Requirements:
+
+Use enum for vehicle modes
+
+Use switch-case for mode handling
+
+Handle all 4 defined modes
+
+Print UNKNOWN_MODE for invalid inputs
+
+SDLC Deliverables:
+
+main.c

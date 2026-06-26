@@ -1,0 +1,30 @@
+Title: Storage Class Demonstrator (A2-Q1)
+
+Problem Statement:
+Create a program demonstrating differences between auto, static, and extern variables across function calls.
+
+Implement a function counter() that:
+
+Has a static int that persists across calls
+
+Has an auto int that resets each call
+
+Prints both values each call
+
+Call counter() 3 times from main().
+
+Expected Output:
+
+Code
+Call 1: auto=1 static=1
+Call 2: auto=1 static=2
+Call 3: auto=1 static=3
+Acceptance Criteria:
+
+✔ Static variable persists
+
+✔ Auto resets each call
+
+✔ Extern demonstrated
+
+✔ 3 calls shown

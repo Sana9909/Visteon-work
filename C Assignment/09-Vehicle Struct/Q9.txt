@@ -1,0 +1,34 @@
+Title: Vehicle Struct (A5-Q1)
+
+Problem Statement:  
+Define a struct Vehicle with fields:
+
+char model[20]
+
+int year
+
+float mileage
+
+int is_electric
+
+Read N vehicles. Print details and flag electric ones.
+
+Output per vehicle:
+
+Code
+Model: <model>, Year: <year>, Mileage: <mileage>.XX km [ELECTRIC] or [FUEL]
+Acceptance Criteria:
+
+✅ Struct used
+
+✅ All fields read
+
+✅ ELECTRIC/FUEL flag printed
+
+✅ Correct format
+
+Input/Output Spec:
+
+Inputs: N, then N lines: model year mileage is_electric
+
+Outputs: One line per vehicle

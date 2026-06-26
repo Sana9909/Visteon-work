@@ -1,0 +1,37 @@
+Title: Sensor Data Array (A4-Q1)
+
+Problem Statement:  
+Read N integer sensor readings into an array.
+Compute and print:
+
+Minimum value
+
+Maximum value
+
+Average (2 decimal places)
+
+Example:  
+Input:
+
+Code
+5
+34 67 22 89 45
+Output:
+
+Code
+Min: 22
+Max: 89
+Avg: 51.40
+Acceptance Criteria:
+
+Array used
+
+Correct min/max/avg calculation
+
+Correct output format
+
+Input/Output Spec:
+
+Inputs: N integers
+
+Outputs: Min: X Max: X Avg: X.XX

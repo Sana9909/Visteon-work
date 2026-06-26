@@ -1,0 +1,42 @@
+Title: Expression Statements Demo (A2-Q2)
+
+Problem Statement:  
+Create a C program that demonstrates different statement types:
+
+Declaration statements
+
+Assignment statements
+
+Expression statements
+
+Steps:
+
+Declare two integers (a, b) and one float (c).
+
+Assign values:
+
+a = 15
+
+b = 4
+
+c = 2.5
+
+Compute and print:
+
+sum = a + b
+
+product = a * b
+
+result = a * c
+
+Expected Output:
+
+Code
+Sum: 19
+Product: 60
+Result: 37.50
+
+Acceptance Criteria:
+Declaration, assignment, and expression statements used
+Correct arithmetic operations
+Correct output format

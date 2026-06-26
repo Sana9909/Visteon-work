@@ -1,0 +1,53 @@
+Title: DTC Code Parser (A4-Q2)
+
+Problem Statement:  
+Read a Diagnostic Trouble Code (DTC) string of exactly 5 characters (e.g., "P0301").
+
+Parse and print:
+
+System:
+
+P → Powertrain
+
+C → Chassis
+
+B → Body
+
+U → Network
+
+Type: digit at position 1
+
+0 → Generic
+
+1 → Manufacturer
+
+Else → Unknown
+
+Code: last 3 digits
+
+Example:  
+Input:
+
+Code
+P0301
+Output:
+
+Code
+System: Powertrain
+Type: Generic
+Code: 301
+Acceptance Criteria:
+
+✅ String/char array used
+
+✅ First char parsed for system
+
+✅ Digit extraction for type
+
+✅ Correct output format
+
+Input/Output Spec:
+
+Input: DTC string (5 chars)
+
+Output: System: X Type: X Code: XXX
