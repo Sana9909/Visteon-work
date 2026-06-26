@@ -1,0 +1,168 @@
+[
+  {
+    "test_id": "T1",
+    "description": "Normal Start",
+    "input_summary": "speed=40, temp=80, gear=1, mode=IGNITION_ON",
+    "expected": "No faults, NORMAL state",
+    "cycles": [
+      { "speed": 0, "engine_temp": 25, "gear": 0, "requested_mode": "MODE_ACC",         "label": "[T1] OFF -> ACC" },
+      { "engine_temp": 30, "requested_mode": "MODE_IGNITION_ON", "label": "[T1] ACC -> IGNITION_ON (reuse speed/gear)" },
+      { "speed": 40, "engine_temp": 80, "gear": 1, "label": "[T1] Normal driving (reuse mode)" }
+    ],
+    "expect": {
+      "mode": "IGNITION_ON",
+      "state": "NORMAL",
+      "active_faults": [],
+      "safe_locked": 0,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T2",
+    "description": "Overspeed Detection",
+    "input_summary": "speed=130, temp=85, gear=4, mode=IGNITION_ON",
+    "expected": "Overspeed fault set, fault counter incremented, DEGRADED state",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 130, "engine_temp": 85, "gear": 4, "requested_mode": "MODE_IGNITION_ON", "label": "[T2] Overspeed triggered" }
+    ],
+    "expect": {
+      "mode": "IGNITION_ON",
+      "state": "DEGRADED",
+      "active_faults": ["FAULT_OVERSPEED"],
+      "fault_counters_min": [1, 0, 0, 0, 0, 0, 0],
+      "safe_locked": 0,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T3",
+    "description": "High Temperature Warning",
+    "input_summary": "temp=100, speed=60, gear=3, mode=IGNITION_ON",
+    "expected": "High temperature warning raised, no crash, correct priority handling",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 60, "engine_temp": 100, "gear": 3, "requested_mode": "MODE_IGNITION_ON", "label": "[T3] High temp warning" }
+    ],
+    "expect": {
+      "mode": "IGNITION_ON",
+      "state": "DEGRADED",
+      "active_faults": ["FAULT_HIGH_TEMP"],
+      "safe_locked": 0,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T4",
+    "description": "Critical Overheat",
+    "input_summary": "temp=115, speed=60, gear=3, mode=IGNITION_ON",
+    "expected": "Critical fault raised, state escalated, fault reason logged",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 60, "engine_temp": 115, "gear": 3, "requested_mode": "MODE_IGNITION_ON", "label": "[T4] Critical overheat" }
+    ],
+    "expect": {
+      "mode": "IGNITION_ON",
+      "state": "DEGRADED",
+      "active_faults": ["FAULT_CRITICAL_TEMP"],
+      "safe_locked": 0,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T5",
+    "description": "Invalid Gear",
+    "input_summary": "gear=9, speed=60, temp=80, mode=IGNITION_ON",
+    "expected": "Invalid gear fault raised, safe handling, no crash",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 60, "engine_temp": 80, "gear": 9, "requested_mode": "MODE_IGNITION_ON", "label": "[T5] Invalid gear injected" }
+    ],
+    "expect": {
+      "mode": "IGNITION_ON",
+      "state": "DEGRADED",
+      "active_faults": ["FAULT_INVALID_GEAR"],
+      "safe_locked": 0,
+      "input_valid": 0
+    }
+  },
+ 
+  {
+    "test_id": "T6",
+    "description": "Illegal Mode Transition",
+    "input_summary": "OFF -> IGNITION_ON directly, skipping ACC",
+    "expected": "Illegal transition detected, FAULT mode triggered",
+    "cycles": [
+      { "speed": 0, "engine_temp": 25, "gear": 0, "requested_mode": "MODE_IGNITION_ON", "label": "[T6] OFF -> IGNITION_ON (illegal)" }
+    ],
+    "expect": {
+      "mode": "FAULT",
+      "state": "DEGRADED",
+      "active_faults": ["FAULT_ILLEGAL_TRANSITION"],
+      "safe_locked": 0,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T7",
+    "description": "Multiple Faults in One Cycle",
+    "input_summary": "speed=140, temp=120, gear=9, mode=IGNITION_ON",
+    "expected": "All three faults set, highest priority respected, state escalated to SAFE",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 140, "engine_temp": 120, "gear": 9, "requested_mode": "MODE_IGNITION_ON", "label": "[T7] Multi-fault cycle" }
+    ],
+    "expect": {
+      "mode": "FAULT",
+      "state": "SAFE",
+      "active_faults": ["FAULT_CRITICAL_TEMP", "FAULT_OVERSPEED", "FAULT_INVALID_GEAR"],
+      "safe_locked": 1,
+      "input_valid": 0
+    }
+  },
+ 
+  {
+    "test_id": "T8",
+    "description": "Persistent Fault Across Cycles",
+    "input_summary": "Same critical fault (temp=115) repeated for 3 consecutive cycles",
+    "expected": "Fault counter increments each cycle, SAFE state reached",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 60, "engine_temp": 115, "gear": 3, "requested_mode": "MODE_IGNITION_ON", "label": "[T8] Persistent fault cycle 1" },
+      { "label": "[T8] Persistent fault cycle 2 (reuse all inputs)" },
+      { "label": "[T8] Persistent fault cycle 3 (reuse all inputs)" }
+    ],
+    "expect": {
+      "mode": "FAULT",
+      "state": "SAFE",
+      "active_faults": ["FAULT_CRITICAL_TEMP", "FAULT_ILLEGAL_TRANSITION"],
+      "fault_counters_min": [0, 0, 3, 0, 0, 0, 0],
+      "safe_locked": 1,
+      "input_valid": 1
+    }
+  },
+ 
+  {
+    "test_id": "T9",
+    "description": "Recovery and Reset Logic",
+    "input_summary": "Overspeed + high temp induced, then values restored to normal",
+    "expected": "Without OFF reset, SAFE latch remains and state does not return to NORMAL",
+    "initial_mode": "MODE_IGNITION_ON",
+    "cycles": [
+      { "speed": 130, "engine_temp": 100, "gear": 4, "requested_mode": "MODE_IGNITION_ON", "label": "[T9] Fault state induced" },
+      { "speed": 40,  "engine_temp": 80,  "gear": 2, "label": "[T9] Values restored to normal (reuse mode)" }
+    ],
+    "expect": {
+      "mode": "FAULT",
+      "state": "SAFE",
+      "active_faults": ["FAULT_ILLEGAL_TRANSITION"],
+      "safe_locked": 1,
+      "input_valid": 1
+    }
+  }
+]

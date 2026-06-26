@@ -1,0 +1,35 @@
+=== Module Object Sizes (text/data/bss in bytes) === 
+   text	   data	    bss	    dec	    hex	filename
+  13956	    768	  12352	  27076	   69c4	ecu_control.o
+    832	      0	      0	    832	    340	input.o
+    180	      0	      0	    180	     b4	mode.o
+    160	      0	      0	    160	     a0	control.o
+    288	      0	      0	    288	    120	fault.o
+    776	      0	      0	    776	    308	state.o
+   2860	      0	      0	   2860	    b2c	log.o
+     48	      0	     16	     64	     40	perf.o
+   1280	      0	     16	   1296	    510	system_io.o
+ 
+=== Static Library (libecu.a) === 
+   text	   data	    bss	    dec	    hex	filename
+  13956	    768	  12352	  27076	   69c4	ecu_control.o (ex libecu.a)
+    832	      0	      0	    832	    340	input.o (ex libecu.a)
+    180	      0	      0	    180	     b4	mode.o (ex libecu.a)
+    160	      0	      0	    160	     a0	control.o (ex libecu.a)
+    288	      0	      0	    288	    120	fault.o (ex libecu.a)
+    776	      0	      0	    776	    308	state.o (ex libecu.a)
+   2860	      0	      0	   2860	    b2c	log.o (ex libecu.a)
+     48	      0	     16	     64	     40	perf.o (ex libecu.a)
+   1280	      0	     16	   1296	    510	system_io.o (ex libecu.a)
+ 
+=== File Sizes === 
+ecu_control.o: 22091 bytes 
+input.o: 1990 bytes 
+mode.o: 956 bytes 
+control.o: 783 bytes 
+fault.o: 1239 bytes 
+state.o: 1962 bytes 
+log.o: 5657 bytes 
+perf.o: 466 bytes 
+system_io.o: 4297 bytes 
+libecu.a: 40942 bytes 

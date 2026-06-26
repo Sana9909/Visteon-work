@@ -1,0 +1,6 @@
+ecu_control.c:74:16:jsoneq.constprop	32	static
+ecu_control.c:51:13:print_faults_inline_to_file.constprop	32	static
+jsmn.h:267:5:jsmn_parse	28	static
+ecu_control.c:84:13:load_tests_from_json	8320	static
+jsmn.h:446:6:jsmn_init	8	static
+ecu_control.c:194:6:run_all_test_cases	624	static

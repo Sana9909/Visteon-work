@@ -1,0 +1,5 @@
+log.c:11:13:mode_to_name	8	static
+log.c:25:13:state_to_name	8	static
+log.c:92:6:log_cycle_summary	80	static
+log.c:100:6:log_cycle_timing	32	static
+log.c:113:6:fault_flags_to_csv_str	64	static

@@ -1,0 +1,5 @@
+fault.c:9:6:set_fault	8	static
+fault.c:16:6:clear_fault	8	static
+fault.c:23:6:clear_all_faults	8	static
+fault.c:30:6:increment_fault_counter	8	static
+fault.c:54:6:update_fault_status	16	static

@@ -1,0 +1,15 @@
+system_io.c:12:12:sys_fopen	8	static
+system_io.c:21:6:sys_fclose	8	static
+system_io.c:28:8:sys_fread	12	static
+system_io.c:37:7:sys_strncpy	8	static
+system_io.c:46:9:sys_strncmp	8	static
+system_io.c:55:8:sys_strlen	12	static
+system_io.c:64:6:sys_memset	12	static
+system_io.c:71:6:sys_log_info	32	static
+system_io.c:78:6:sys_log_error	32	static
+system_io.c:85:6:sys_printf	32	static
+system_io.c:95:6:sys_fprintf	32	static
+system_io.c:111:6:sys_read_int16	48	static
+system_io.c:124:6:sys_read_int8	48	static
+system_io.c:137:6:sys_read_uint32	48	static
+system_io.c:150:9:sys_atoi	8	static
