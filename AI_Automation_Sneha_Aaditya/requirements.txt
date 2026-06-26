@@ -1,0 +1,10 @@
+torch
+transformers
+peft
+trl
+datasets
+fastapi
+uvicorn
+pydantic
+cantools
+openpyxl
