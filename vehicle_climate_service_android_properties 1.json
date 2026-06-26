@@ -1,0 +1,1803 @@
+{
+    "Service": "climate service",
+    "Features": [
+        {
+            "Name": "Climate Control Settings",
+            "Properties": [
+                {
+                    "Name": "HVAC_AC_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "HVAC_ALL",
+                    "SOME/IP API": [
+                        "SetClimateACRequest",
+                        "SetClimateACResponse",
+                        "GetClimateACStatusRequest",
+                        "GetClimateACStatusResponse",
+                        "NotifyClimateACStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_ac_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_ac_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_ac_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_ac_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_AC_ON then HVAC_AC_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_AC_OFF then HVAC_AC_ON = FALSE",
+                        "Set: if <x> == true then climate_ac_state = ENUM_CLIMATE_AC_ON",
+                        "Set: if <x> == false then climate_ac_state = ENUM_CLIMATE_AC_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_ac_state: (EnumClimateACState) Default: 1",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_POWER_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetClimateSystemRequest",
+                        "SetClimateSystemResponse",
+                        "GetClimateSystemStatusRequest",
+                        "GetClimateSystemStatusResponse",
+                        "NotifyClimateSystemStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_power_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_power_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_power_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_power_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_SYSTEM_ON then HVAC_POWER_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_SYSTEM_OFF then HVAC_POWER_ON = FALSE",
+                        "Set: if <x> == true then climate_power_state = ENUM_CLIMATE_SYSTEM_ON",
+                        "Set: if <x> == false then climate_power_state = ENUM_CLIMATE_SYSTEM_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_power_state: (EnumClimateSystemState) Default: 1",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_AUTO_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetClimateAutoModeRequest",
+                        "SetClimateAutoModeResponse",
+                        "GetClimateAutoModeStatusRequest",
+                        "GetClimateAutoModeStatusResponse",
+                        "NotifyClimateAutoModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_auto_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_auto_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_auto_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_auto_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_AUTO_ON then HVAC_AUTO_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_AUTO_OFF then HVAC_AUTO_ON = FALSE",
+                        "Set: if <x> == true then climate_auto_state = ENUM_CLIMATE_AUTO_ON",
+                        "Set: if <x> == false then climate_auto_state = ENUM_CLIMATE_AUTO_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_auto_state: (EnumClimateAutoMode) Default: 1",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_RECIRC_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "HVAC_ALL",
+                    "SOME/IP API": [
+                        "SetClimateRecirculationRequest",
+                        "SetClimateRecirculationResponse",
+                        "GetClimateRecirculationStatusRequest",
+                        "GetClimateRecirculationStatusResponse",
+                        "NotifyClimateRecirculationStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_recirc_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_recirc_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_recirc_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_recirc_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_RECIRCIRCULATION_ON then HVAC_RECIRC_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_RECIRCIRCULATION_OFF then HVAC_RECIRC_ON = FALSE",
+                        "Set: if <x> == true then climate_recirc_state = ENUM_CLIMATE_RECIRCIRCULATION_ON",
+                        "Set: if <x> == false then climate_recirc_state = ENUM_CLIMATE_RECIRCIRCULATION_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_recirc_state: (EnumClimateRecirculationState) Default: 0",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_MAX_AC_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "HVAC_ALL",
+                    "SOME/IP API": [
+                        "SetClimateMaxACRequest",
+                        "SetClimateMaxACResponse",
+                        "GetClimateMaxACStatusRequest",
+                        "GetClimateMaxACStatusResponse",
+                        "NotifyClimateMaxACStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_max_ac_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_max_ac_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_max_ac_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_max_ac_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_AC_ON then HVAC_MAX_AC_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_AC_OFF then HVAC_MAX_AC_ON = FALSE",
+                        "Set: if <x> == true then climate_max_ac_state = ENUM_CLIMATE_AC_ON",
+                        "Set: if <x> == false then climate_max_ac_state = ENUM_CLIMATE_AC_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_max_ac_state: (EnumClimateACState) Default: 0",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_MAX_DEFROST_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "HVAC_ALL",
+                    "SOME/IP API": [
+                        "SetClimateMaxDefrostRequest",
+                        "SetClimateMaxDefrostResponse",
+                        "GetClimateMaxDefrostStatusRequest",
+                        "GetClimateMaxDefrostStatusResponse",
+                        "NotifyClimateMaxDefrostStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_max_defrost_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_max_defrost_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_max_defrost_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_max_defrost_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_MAX_DEFROST_ON then HVAC_MAX_DEFROST_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_MAX_DEFROST_OFF then HVAC_MAX_DEFROST_ON = FALSE",
+                        "Set: if <x> == true then climate_max_defrost_state = ENUM_CLIMATE_MAX_DEFROST_ON",
+                        "Set: if <x> == false then climate_max_defrost_state = ENUM_CLIMATE_MAX_DEFROST_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_max_defrost_state: (EnumClimateMaxDefrostState) Default: 0",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_DUAL_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "HVAC_ALL",
+                    "SOME/IP API": [
+                        "SetClimateSyncRequest",
+                        "SetClimateSyncResponse",
+                        "GetClimateSyncStatusRequest",
+                        "GetClimateSyncStatusResponse",
+                        "NotifyClimateSyncStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_dual_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_dual_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_dual_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_dual_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_CLIMATE_SYNC_STATE_ON then HVAC_DUAL_ON = TRUE",
+                        "if <x> == ENUM_CLIMATE_SYNC_STATE_OFF then HVAC_DUAL_ON = FALSE",
+                        "Set: if <x> == true then climate_dual_state = ENUM_CLIMATE_SYNC_STATE_ON",
+                        "Set: if <x> == false then climate_dual_state = ENUM_CLIMATE_SYNC_STATE_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_dual_state: (EnumClimateSyncState) Default: 1",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_ELECTRIC_DEFROSTER_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "WINDOW",
+                    "Area Map": "EnumWindowAreaSelection",
+                    "SOME/IP API": [
+                        "SetClimateDefrosterModeRequest",
+                        "SetClimateDefrosterModeResponse",
+                        "GetClimateDefrosterModeStatusRequest",
+                        "GetClimateDefrosterModeStatusResponse",
+                        "NotifyClimateDefrosterModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_electric_defroster_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_DEFROSTER_MODE_ON then HVAC_ELECTRIC_DEFROSTER_ON = TRUE",
+                        "if <x> == ENUM_DEFROSTER_MODE_OFF then HVAC_ELECTRIC_DEFROSTER_ON = FALSE",
+                        "Set: if <x> == true then climate_electric_defroster_state = ENUM_DEFROSTER_MODE_ON",
+                        "Set: if <x> == false then climate_electric_defroster_state = ENUM_DEFROSTER_MODE_OFF"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_electric_defroster_state: (EnumDefrosterMode) Default: 0",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_REAR_LOCK_ON",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "BOOLEAN",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetRearClimatePanelLockRequest",
+                        "SetRearClimatePanelLockResponse",
+                        "GetRearClimatePanelLockStatusRequest",
+                        "GetRearClimatePanelLockStatusResponse",
+                        "NotifyRearClimatePanelLockStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_rear_lock_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_rear_lock_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_rear_lock_state"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == climate_rear_lock_state",
+                    "Value Conversions": [
+                        "if <x> == ENUM_REAR_CLIMATE_PANEL_LOCK_ENABLE then HVAC_REAR_LOCK_ON = TRUE",
+                        "if <x> == ENUM_REAR_CLIMATE_PANEL_LOCK_DISABLE then HVAC_REAR_LOCK_ON = FALSE",
+                        "Set: if <x> == true then climate_rear_lock_state = ENUM_REAR_CLIMATE_PANEL_LOCK_ENABLE",
+                        "Set: if <x> == false then climate_rear_lock_state = ENUM_REAR_CLIMATE_PANEL_LOCK_DISABLE"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_rear_lock_state: (EnumRearClimatePanelLockState) Default: 0",
+                        "Min: 0",
+                        "Max: 1"
+                    ]
+                },
+                {
+                    "Name": "HVAC_FAN_DIRECTION",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetAirDistributionRequest",
+                        "SetAirDistributionResponse",
+                        "GetAirDistributionStatusRequest",
+                        "GetAirDistributionStatusResponse",
+                        "NotifyAirDistributionStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = air_distribution_values"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = air_distribution_values"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = air_distribution_values"
+                    ],
+                    "Entry Condition": "Set: <x> == int32Values[0], <x> == air_distribution_values",
+                    "Value Conversions": [
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FOOT then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::FLOOR",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FACE then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::FACE",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_SCREEN then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::DEFROST",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FOOT_OR_FACE then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::FACE_AND_FLOOR",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FOOT_OR_SCREEN then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::DEFROST_AND_FLOOR",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FOOT_OR_FACE_OR_SCREEN then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::FACE|VehicleHvacFanDirection::FLOOR|VehicleHvacFanDirection::DEFROST",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_FACE_OR_SCREEN then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::FACE|VehicleHvacFanDirection::DEFROST",
+                        "if <x> == ENUM_AIR_DISTRIBUTION_AUTO then HVAC_FAN_DIRECTION = VehicleHvacFanDirection::UNKNOWN",
+                        "Set: if <x> == VehicleHvacFanDirection::FLOOR then air_distribution_values = ENUM_AIR_DISTRIBUTION_FOOT",
+                        "Set: if <x> == VehicleHvacFanDirection::FACE then air_distribution_values = ENUM_AIR_DISTRIBUTION_FACE",
+                        "Set: if <x> == VehicleHvacFanDirection::DEFROST then air_distribution_values = ENUM_AIR_DISTRIBUTION_SCREEN",
+                        "Set: if <x> == VehicleHvacFanDirection::FACE_AND_FLOOR then air_distribution_values = ENUM_AIR_DISTRIBUTION_FOOT_OR_FACE",
+                        "Set: if <x> == VehicleHvacFanDirection::DEFROST_AND_FLOOR then air_distribution_values = ENUM_AIR_DISTRIBUTION_FOOT_OR_SCREEN",
+                        "Set: if <x> == VehicleHvacFanDirection::FACE|VehicleHvacFanDirection::FLOOR|VehicleHvacFanDirection::DEFROST then air_distribution_values = ENUM_AIR_DISTRIBUTION_FOOT_OR_FACE_OR_SCREEN",
+                        "Set: if <x> == VehicleHvacFanDirection::FACE|VehicleHvacFanDirection::DEFROST then air_distribution_values = ENUM_AIR_DISTRIBUTION_FACE_OR_SCREEN"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "air_distribution_values: (EnumDistributionAreaValues) Default: 1",
+                        "Min: 0",
+                        "Max: 8"
+                    ]
+                },
+                {
+                    "Name": "HVAC_TEMPERATURE_SET",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "FLOAT",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetTemperatureRequest",
+                        "SetTemperatureResponse",
+                        "GetTemperatureStatusRequest",
+                        "GetTemperatureStatusResponse",
+                        "NotifyTemperatureStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "floatValues[0] = temp_range"
+                    ],
+                    "Set Value Mappings": [
+                        "floatValues[0] = temp_range"
+                    ],
+                    "Notify Value Mappings": [
+                        "floatValues[0] = temp_range"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "temp_range: Default: 22",
+                        "Min: 0",
+                        "Max: 31"
+                    ]
+                },
+                {
+                    "Name": "HVAC_AUTO_DEFROSTER",
+                    "Description": "Control and receive the status of Climate controls",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "WINDOW",
+                    "Area Map": "EnumWindowAreaSelection",
+                    "SOME/IP API": [
+                        "SetClimateAutoDefrosterModeRequest",
+                        "SetClimateAutoDefrosterModeResponse",
+                        "GetClimateAutoDefrosterModeStatusRequest",
+                        "GetClimateAutoDefrosterModeStatusResponse",
+                        "NotifyClimateAutoDefrosterModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_auto_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_auto_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_electric_defroster_auto_state"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_electric_defroster_auto_state: (EnumAutoDefrosterMode) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SIDE_MIRROR_HEAT",
+                    "Description": "Control and receive the status of heated door mirror Climate controls",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "MIRROR",
+                    "Area Map": "EnumDoorMirrorSelection",
+                    "SOME/IP API": [
+                        "SetClimateDoorMirrorDefrosterModeRequest",
+                        "SetClimateDoorMirrorDefrosterModeResponse",
+                        "GetClimateDoorMirrorDefrosterModeStatusRequest",
+                        "GetClimateDoorMirrorDefrosterModeStatusResponse",
+                        "NotifyClimateDoorMirrorDefrosterModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status(x).door_mirror_defroster_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status.door_mirror_defroster_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status.door_mirror_defroster_state"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "door_mirror_defroster_state: (EnumDefrosterMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SIDE_MIRROR_AUTO_HEAT",
+                    "Description": "Control and receive the status of auto heated door mirror setting Climate controls",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "MIRROR",
+                    "Area Map": "EnumDoorMirrorSelection",
+                    "SOME/IP API": [
+                        "SetClimateDoorMirrorDefrosterModeRequest",
+                        "SetClimateDoorMirrorDefrosterModeResponse",
+                        "GetClimateDoorMirrorDefrosterModeStatusRequest",
+                        "GetClimateDoorMirrorDefrosterModeStatusResponse",
+                        "NotifyClimateDoorMirrorDefrosterModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status(x).door_mirror_defroster_auto_state"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status.door_mirror_defroster_auto_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = door_mirror_defroster_status.door_mirror_defroster_auto_state"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "door_mirror_defroster_auto_state: (EnumAutoDefrosterMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_REAR_CHILLER_MODE",
+                    "Description": "Control and receive the status of Rear Chiller Mode Climate controls",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetClimateRearChillerModeRequest",
+                        "SetClimateRearChillerModeResponse",
+                        "GetClimateRearChillerModeStatusRequest",
+                        "GetClimateRearChillerModeStatusResponse",
+                        "NotifyClimateRearChillerModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_rear_chiller_mode"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_rear_chiller_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_rear_chiller_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_rear_chiller_mode: (EnumClimateRearChillerMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Climate Blower",
+            "Properties": [
+                {
+                    "Name": "HVAC_MANUAL_BLOWER_SPEED",
+                    "Description": "Control and receive the status of Blower",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetManualBlowerSpeedRequest",
+                        "SetManualBlowerSpeedResponse",
+                        "GetManualBlowerSpeedStatusRequest",
+                        "GetManualBlowerSpeedStatusResponse",
+                        "NotifyManualBlowerSpeedStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = manual_blower_status"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = manual_blower_speed"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = manual_blower_status"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "manual_blower_status: (EnumBlowerSpeed) Default: 4",
+                        "Min: 0",
+                        "Max: 12"
+                    ]
+                },
+                {
+                    "Name": "HVAC_FAN_SPEED",
+                    "Description": "Control and receive the status of Blower",
+                    "Group": "SYSTEM",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetAutoBlowerIntensityRequest",
+                        "SetAutoBlowerIntensityResponse",
+                        "GetAutoBlowerIntensityStatusRequest",
+                        "GetAutoBlowerIntensityStatusResponse",
+                        "NotifyAutoBlowerIntensityStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = auto_blower_intensity"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = auto_blower_intensity"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = auto_blower_intensity"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "auto_blower_intensity: (EnumAutoBlwrIntnsty) Default: 3",
+                        "Min: 0",
+                        "Max: 11"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Inhibit Climate Controls ",
+            "Properties": [
+                {
+                    "Name": "HVAC_CLIMATE_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of Climate controls to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32_VEC",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = rear_climate_controls",
+                        "int32Values[1] = climate_sync_control",
+                        "int32Values[2] = climate_hfs_control",
+                        "int32Values[3] = climate_hrw_control",
+                        "int32Values[4] = climate_recirc_control",
+                        "int32Values[5] = climate_ionizer_control",
+                        "int32Values[6] = rear_auto_control"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = rear_climate_controls",
+                        "int32Values[1] = climate_sync_control",
+                        "int32Values[2] = climate_hfs_control",
+                        "int32Values[3] = climate_hrw_control",
+                        "int32Values[4] = climate_recirc_control",
+                        "int32Values[5] = climate_ionizer_control",
+                        "int32Values[6] = rear_auto_control"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "rear_climate_controls: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_sync_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_hfs_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_hrw_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_recirc_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_ionizer_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "rear_auto_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_MANUAL_BLOWER_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of manual Climate blower control to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "WINDOW",
+                    "Area Map": "EnumBlowerArea",
+		    "Area Type": "BLOWER",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_blower_control(x).climate_blower_control_status"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_blower_control(x).climate_blower_control_status"
+                    ],
+                    "Entry Condition": "<x> == climate_blower_control(x).blower_type",
+                    "Value Conversions": [
+                        "if <x> == ENUM_BLOWER_TYPE_MANUAL then HVAC_CLIMATE_MANUAL_BLOWER_CONTROLS_INHIBIT_STATUS"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_blower_control_status : Default:1",
+                        "Min:0",
+                        "Max:2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_AUTO_BLOWER_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of Auto Climate blower control to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "WINDOW",
+                    "Area Map": "EnumBlowerArea",
+		    "Area Type": "BLOWER",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_blower_control(x).climate_blower_control_status"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_blower_control(x).climate_blower_control_status"
+                    ],
+                    "Entry Condition": "<x> == climate_blower_control(x).blower_type",
+                    "Value Conversions": [
+                        "if <x> == ENUM_BLOWER_TYPE_AUTO then HVAC_CLIMATE_AUTO_BLOWER_CONTROLS_INHIBIT_STATUS"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_blower_control_status: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_TEMPERATURE_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of Climate temperature control to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_temperature_control(x).climate_temperature_control_status"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_temperature_control(x).climate_temperature_control_status"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_temperature_control_status: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_DISTRIBUTION_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of Climate distribution control to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_distribution_control(x).climate_distribution_control_status"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_distribution_control(x).climate_distribution_control_status"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_distribution_control_status: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_GENERAL_CONTROLS_INHIBIT_STATUS",
+                    "Description": "Receive the status of Climate general controls to inhibit them for user interaction",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32_VEC",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "GetClimateControlsInhibitStatusRequest",
+                        "GetClimateControlsInhibitStatusResponse",
+                        "NotifyClimateControlsInhibitStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_general_control.front_climate_system_control",
+                        "int32Values[1] = climate_general_control.front_auto_control",
+                        "int32Values[2] = climate_general_control.climate_ac_control",
+                        "int32Values[3] = climate_general_control.climate_maxac_control",
+                        "int32Values[4] = climate_general_control.climate_maxdefrost_control",
+                        "int32Values[5] = climate_general_control.climate_heated_door_mirror_control",
+                        "int32Values[6] = climate_general_control.rear_climate_panel_lock_control",
+                        "int32Values[7] = climate_general_control.rear_climate_chiller_control",
+                        "int32Values[8] = climate_general_control.heat_now_user_control",
+                        "int32Values[9] = climate_general_control.vent_now_user_control"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_general_control.front_climate_system_control",
+                        "int32Values[1] = climate_general_control.front_auto_control",
+                        "int32Values[2] = climate_general_control.climate_ac_control",
+                        "int32Values[3] = climate_general_control.climate_maxac_control",
+                        "int32Values[4] = climate_general_control.climate_maxdefrost_control",
+                        "int32Values[5] = climate_general_control.climate_heated_door_mirror_control",
+                        "int32Values[6] = climate_general_control.rear_climate_panel_lock_control",
+                        "int32Values[7] = climate_general_control.rear_climate_chiller_control",
+                        "int32Values[8] = climate_general_control.heat_now_user_control",
+                        "int32Values[9] = climate_general_control.vent_now_user_control"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "front_climate_system_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "front_auto_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_ac_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_maxac_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_maxdefrost_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "climate_heated_door_mirror_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "rear_climate_panel_lock_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "rear_climate_chiller_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "heat_now_user_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "vent_now_user_control: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "InCabin CO2 Management",
+            "Properties": [
+                {
+                    "Name": "HVAC_INCABIN_CO2_MONITORING",
+                    "Description": "Control and receive the status of Cabin CO2",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetInCabinCO2MonitoringRequest",
+                        "SetInCabinCO2MonitoringResponse",
+                        "GetInCabinCO2MonitoringStatusRequest",
+                        "GetInCabinCO2MonitoringStatusResponse",
+                        "NotifyInCabinCO2MonitoringStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = incabin_co2_monitoring"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = incabin_co2_monitoring"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = incabin_co2_monitoring"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "incabin_co2_monitoring: (EnumInCabinCO2Monitoring) Default: 2",
+                        "Min: 0",
+                        "Max: 3"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Enhanced PM2.5 filtration",
+            "Properties": [
+                {
+                    "Name": "HVAC_PURIFY_MODE",
+                    "Description": "Control and receive the status of PM2.5 filteration",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetPurifyModeRequest",
+                        "SetPurifyModeResponse",
+                        "GetPurifyModeStatusRequest",
+                        "GetPurifyModeStatusResponse",
+                        "NotifyPurifyModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = purify_mode"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = purify_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = purify_state"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "purify_mode: (EnumPurifyMode) Default: 2",
+                        "Min: 0",
+                        "Max: 3",
+                        "purify_state: (EnumPurifyMode) Default: 2",
+                        "Min: 0",
+                        "Max: 3"
+                    ]
+                },
+                {
+                    "Name": "HVAC_AIR_QUALITY",
+                    "Description": "Control and receive the status of PM2.5 filteration",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetAirQualitySettingRequest",
+                        "SetAirQualitySettingResponse",
+                        "GetAirQualitySettingStatusRequest",
+                        "GetAirQualitySettingStatusResponse",
+                        "NotifyAirQualitySettingStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = air_quality_setting"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = air_quality_setting"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = air_quality_setting"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "air_quality_setting: (EnumAirQualitySetting) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Automatic Cabin Ventilation",
+            "Properties": [
+                {
+                    "Name": "HVAC_AUTOMATIC_CABIN_VENTILATION_MODE",
+                    "Description": "Control and receive the status of Automatic Cabin Ventilation Mode",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetAutomaticCabinVentilationModeRequest",
+                        "SetAutomaticCabinVentilationModeResponse",
+                        "GetAutomaticCabinVentilationModeStatusRequest",
+                        "GetAutomaticCabinVentilationModeStatusResponse",
+                        "NotifyAutomaticCabinVentilationModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = automatic_cabin_ventilation_mode"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = automatic_cabin_ventilation_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = automatic_cabin_ventilation_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "automatic_cabin_ventilation_mode: (EnumAutomaticCabinVentilationMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Slim Vents",
+            "Properties": [
+                {
+                    "Name": "HVAC_SLIM_VENT_MODE",
+                    "Description": "Control and receive the status of Slime vent mode and position",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetSlimVentModeRequest",
+                        "SetSlimVentModeResponse",
+                        "GetSlimVentModeStatusRequest",
+                        "GetSlimVentModeStatusResponse",
+                        "NotifySlimVentModeStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = slim_vent_mode"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = slim_vent_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = slim_vent_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "slim_vent_mode: (EnumSlimVentMode) Default: 1",
+                        "Min: 0",
+                        "Max: 3"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SLIM_VENT_DUAL_PLUME_MODE_POSITION",
+                    "Description": "Control and receive the status of Slime vent mode and position",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32_VEC",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetSlimVentDualPlumeModePositionRequest",
+                        "SetSlimVentDualPlumeModePositionResponse",
+                        "GetSlimVentDualPlumeModePositionStatusRequest",
+                        "GetSlimVentDualPlumeModePositionStatusResponse",
+                        "NotifySlimVentDualPlumeModePositionStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = dual_plume_xpos",
+                        "int32Values[1] = dual_plume_ypos"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = dual_plume_xpos",
+                        "int32Values[1] = dual_plume_ypos"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = dual_plume_xpos",
+                        "int32Values[1] = dual_plume_ypos"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "dual_plume_xpos: Default: 0",
+                        "Min: 0",
+                        "Max: 100",
+                        "dual_plume_ypos: Default: 0",
+                        "Min: 0",
+                        "Max: 100"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SLIM_VENT_SINGLE_PLUME_MODE_POSITION",
+                    "Description": "Control and receive the status of Slime vent mode and position",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32_VEC",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetSlimVentSinglePlumeModePositionRequest",
+                        "SetSlimVentSinglePlumeModePositionResponse",
+                        "GetSlimVentSinglePlumeModePositionStatusRequest",
+                        "GetSlimVentSinglePlumeModePositionStatusResponse",
+                        "NotifySlimVentSinglePlumeModePositionStatus"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = single_plume_xpos",
+                        "int32Values[1] = single_plume_ypos"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = single_plume_xpos",
+                        "int32Values[1] = single_plume_ypos"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = single_plume_xpos",
+                        "int32Values[1] = single_plume_ypos"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "single_plume_xpos: Default: 0",
+                        "Min: 0",
+                        "Max: 100",
+                        "single_plume_ypos: Default: 0",
+                        "Min: 0",
+                        "Max: 101"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Outside Temperature",
+            "Properties": [
+                {
+                    "Name": "ENV_OUTSIDE_TEMPERATURE",
+                    "Description": "Outside ambient temperature. Unit: degrees Celsius.",
+                    "Group": "SYSTEM",
+                    "Access": "READ",
+                    "Change Mode": "CONTINUOUS",
+                    "Type": "FLOAT",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "GetOutsideTempRequest",
+                        "GetOutsideTempResponse",
+                        "NotifyOutsideTemp"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "floatValues[0] = outsidetemp"
+                    ],
+                    "Notify Value Mappings": [
+                        "floatValues[0] = outsidetemp"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "outsidetemp: Default: 0",
+                        "Min: -128",
+                        "Max: 127.5"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Multi Functional Centre Console Fridge",
+            "Properties": [
+                {
+                    "Name": "HVAC_FRIDGE_AWAY_MODE",
+                    "Description": "control and receive the status of Fridge Away mode",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetFridgeAwayModeRequest",
+                        "SetFridgeAwayModeResponse",
+                        "GetFridgeAwayModeStatusRequest",
+                        "GetFridgeAwayModeStatusResponse",
+                        "NotifyFridgeAwayModeStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = fridge_away_mode"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = fridge_away_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = fridge_away_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "fridge_away_mode: (EnumFridgeAwayMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Efficient Auto feature",
+            "Properties": [
+                {
+                    "Name": "HVAC_EFFICIENT_AUTO_MODE",
+                    "Description": "control and receive the status of Efficient Auto mode",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetEfficientAutoModeRequest",
+                        "SetEfficientAutoModeResponse",
+                        "GetEfficientAutoModeStatusRequest",
+                        "GetEfficientAutoModeStatusResponse",
+                        "NotifyEfficientAutoModeStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = efficient_auto_mode"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = efficient_auto_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = efficient_auto_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "efficient_auto_mode: (EnumEfficientAutoMode) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SMART_CLIMATE_POWER_STATUS_FRONT",
+                    "Description": "Smart climate power on/off status for the Front",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "GetSmartClimatePowerStatusRequest",
+                        "GetSmartClimatePowerStatusResponse",
+                        "NotifySmartClimatePowerStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = smart_climate_power_status_front"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = smart_climate_power_status"
+                    ],
+                    "Entry Condition": "Notify: <x> == seat_selection",
+                    "Value Conversions": [
+                        "if <x> == ENUM_SEAT_SELECTION_FIRST_ROW_LEFT then HVAC_SMART_CLIMATE_POWER_STATUS_FRONT"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "smart_climate_power_status_front: (EnumSmartClimatePowerStatus) Default: 2",
+                        "Min: 0",
+                        "Max: 2",
+                        "smart_climate_power_status: (EnumSmartClimatePowerStatus) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SMART_CLIMATE_POWER_STATUS_REAR",
+                    "Description": "Smart climate power on/off status for the Rear",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "GetSmartClimatePowerStatusRequest",
+                        "GetSmartClimatePowerStatusResponse",
+                        "NotifySmartClimatePowerStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = smart_climate_power_status_rear"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = smart_climate_power_status"
+                    ],
+                    "Entry Condition": "Notify: <x> == seat_selection",
+                    "Value Conversions": [
+                        "if <x> == ENUM_SEAT_SELECTION_SECOND_ROW_LEFT then HVAC_SMART_CLIMATE_POWER_STATUS_REAR"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "smart_climate_power_status_rear: (EnumSmartClimatePowerStatus) Default: 2",
+                        "Min: 0",
+                        "Max: 2",
+                        "smart_climate_power_status: (EnumSmartClimatePowerStatus) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                },
+                {
+                    "Name": "HVAC_SMART_CLIMATE_ISOLATION_STATUS",
+                    "Description": "Smart climate Isolation active/inactive status",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetSmartClimateStatusRequest",
+                        "GetSmartClimateStatusResponse",
+                        "NotifySmartClimateStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = smart_climate(x).smart_climate_status"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = smart_climate(x).smart_climate_status"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "smart_climate_status: (EnumSmartClimateStatus) Default: 2",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "vehicle Preconditioning setting ",
+            "Properties": [
+                {
+                    "Name": "HVAC_CLIMATE_AWAY_MODE",
+                    "Description": "control and receive the status of climate Away mode",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetClimateAwayModeRequest",
+                        "SetClimateAwayModeResponse",
+                        "GetClimateAwayModeStatusRequest",
+                        "GetClimateAwayModeStatusResponse",
+                        "NotifyClimateAwayModeStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = climate_away_mode"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = climate_away_mode"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = climate_away_mode"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "climate_away_mode: (EnumClimateAwayMode) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Electric Vents",
+            "Properties": [
+                {
+                    "Name": "HVAC_CLIMATE_ELECTRIC_VENT_SWITCH",
+                    "Description": "control electric vents",
+                    "Group": "VENDOR",
+                    "Access": "WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32_VEC",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "SetElectricVentRequest",
+                        "SetElectricVentResponse"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = electric_vent_location",
+                        "int32Values[1] = electric_vent_position"
+                    ],
+                    "Get Value Mappings": [
+                        "N/A"
+                    ],
+                    "Notify Value Mappings": [
+                        "N/A"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "electric_vent_location: (EnumElectricVentLocation) Default: 1",
+                        "Min: 0",
+                        "Max: 2",
+                        "electric_vent_position: (EnumElectricVentPosition) Default: 1",
+                        "Min: 0",
+                        "Max: 4"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_INDIRECT_ELECTRIC_VENT_STATE",
+                    "Description": "Indirect electric vents status information",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetElectricVentStatusRequest",
+                        "GetElectricVentStatusResponse",
+                        "NotifyElectricVentStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).indirect_vent_position"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).indirect_vent_position"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "electric_vent_info(x).indirect_vent_position: (EnumElectricVentPosition) Default: 1",
+                        "Min: 0",
+                        "Max: 4"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_CENTRE_ELECTRIC_VENT_STATE",
+                    "Description": "Centre electric vents status information",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetElectricVentStatusRequest",
+                        "GetElectricVentStatusResponse",
+                        "NotifyElectricVentStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_position"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_position"
+                    ],
+                    "Entry Condition": "<x> == electric_vent_info(x).electric_vent_location",
+                    "Value Conversions": [
+                        "if <x> == ENUM_ELECTRICVENT_LOCATION_CENTRE then HVAC_CLIMATE_CENTRE_ELECTRIC_VENT_STATE"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "electric_vent_info(x).electric_vent_position: (EnumElectricVentPosition) Default: 1",
+                        "Min: 0",
+                        "Max: 4"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_EOD_ELECTRIC_VENT_STATE",
+                    "Description": "End of Dash electric vents status information",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetElectricVentStatusRequest",
+                        "GetElectricVentStatusResponse",
+                        "NotifyElectricVentStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_position"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_position"
+                    ],
+                    "Entry Condition": "<x> == electric_vent_info(x).electric_vent_location",
+                    "Value Conversions": [
+                        "if <x> == ENUM_ELECTRICVENT_LOCATION_ENDOFDASH then HVAC_CLIMATE_EOD_ELECTRIC_VENT_STATE"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "electric_vent_position: (EnumElectricVentPosition) Default: 1",
+                        "Min: 0",
+                        "Max: 4"
+                    ]
+                },
+                {
+                    "Name": "HVAC_CLIMATE_ELECTRIC_VENT_CONTROL_INHIBIT_STATE",
+                    "Description": "Inhibit Electric vent control status information",
+                    "Group": "VENDOR",
+                    "Access": "READ",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "SEAT",
+                    "Area Map": "EnumSeatSelection",
+                    "SOME/IP API": [
+                        "GetElectricVentStatusRequest",
+                        "GetElectricVentStatusResponse",
+                        "NotifyElectricVentStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "N/A"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_control_status"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = electric_vent_info(x).electric_vent_control_status"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "electric_vent_control_status: (EnumClimateControlStatus) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Welcome Climate Experiance",
+            "Properties": [
+                {
+                    "Name": "HVAC_WELCOME_CLIMATE_EXPERIENCE_STATUS",
+                    "Description": "welcome climate exp setting on/off",
+                    "Group": "VENDOR",
+                    "Access": "READ_WRITE",
+                    "Change Mode": "ON_CHANGE",
+                    "Type": "INT32",
+                    "Vehicle Area": "GLOBAL",
+                    "Area Map": "N/A",
+                    "SOME/IP API": [
+                        "SetWelcomeClimateSettingRequest",
+                        "SetWelcomeClimateSettingResponse",
+                        "GetWelcomeClimateSettingRequest",
+                        "GetWelcomeClimateSettingResponse",
+                        "NotifyWelcomeClimateSettingStatus"
+                    ],
+                    "Set Value Mappings": [
+                        "int32Values[0] = welcome_climate_setting_state"
+                    ],
+                    "Get Value Mappings": [
+                        "int32Values[0] = welcome_climate_setting_state"
+                    ],
+                    "Notify Value Mappings": [
+                        "int32Values[0] = welcome_climate_setting_state"
+                    ],
+                    "Entry Condition": "N/A",
+                    "Value Conversions": [
+                        "N/A"
+                    ],
+                    "Input Units": "N/A",
+                    "Output Units": "N/A",
+                    "Property Config": [
+                        "welcome_climate_setting_state: (EnumWelcomeClimateSettingState) Default: 1",
+                        "Min: 0",
+                        "Max: 2"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Vehicle Area Mapping": [
+        {
+	    "BLOWER": [
+                "ENUM_BLOWER_AREA_FRONT = 1 : FRONT_WINDSHIELD  = 0x00000001",
+                "ENUM_BLOWER_AREA_REAR = 2 : REAR_WINDSHIELD   = 0x00000002"
+	    ],
+            "SEAT": [
+                "Get : ENUM_SEAT_SELECTION_FIRST_ROW_ALL = 5 : ROW_1_LEFT | ROW_1_RIGHT = 0x0005",
+                "Get : ENUM_SEAT_SELECTION_SECOND_ROW_ALL = 9 : ROW_2_LEFT | ROW_2_RIGHT | ROW_2_CENTER = 0x0070",
+                "Notify : ENUM_SEAT_SELECTION_FIRST_ROW_ALL = 5 : ROW_1_LEFT | ROW_1_RIGHT = 0x0005",
+                "Notify : ENUM_SEAT_SELECTION_SECOND_ROW_ALL = 9 : ROW_2_LEFT | ROW_2_RIGHT | ROW_2_CENTER = 0x0070",
+                "ENUM_SEAT_SELECTION_FIRST_ROW_LEFT = 2 : ROW_1_LEFT = 0x0001",
+                "ENUM_SEAT_SELECTION_FIRST_ROW_RIGHT = 3 : ROW_1_RIGHT = 0x0004",
+                "ENUM_SEAT_SELECTION_FIRST_ROW_CENTRE = 4 : ROW_1_CENTER = 0x0002",
+                "ENUM_SEAT_SELECTION_SECOND_ROW_LEFT = 6 : ROW_2_LEFT = 0x0010",
+                "ENUM_SEAT_SELECTION_SECOND_ROW_RIGHT = 7 : ROW_2_RIGHT = 0x0040",
+                "ENUM_SEAT_SELECTION_SECOND_ROW_CENTRE = 8 : ROW_2_CENTER = 0x0020",
+                "ENUM_SEAT_SELECTION_THIRD_ROW_LEFT = 10 : ROW_3_LEFT = 0x0100",
+                "ENUM_SEAT_SELECTION_THIRD_ROW_RIGHT = 11 : ROW_3_RIGHT = 0x0400",
+                "ENUM_SEAT_SELECTION_THIRD_ROW_CENTRE = 12 : ROW_3_CENTER = 0x0200"
+            ],
+            "WINDOW": [
+                "ENUM_WINDOW_AREA_FRONT_WINDSHIELD = 1 : FRONT_WINDSHIELD = 0x00000001",
+                "ENUM_WINDOW_AREA_REAR_WINDSHIELD = 2 : REAR_WINDSHIELD = 0x00000002"
+            ],
+            "MIRROR": [
+                "ENUM_DOOR_MIRROR_ALL = 1 : DRIVER_LEFT | DRIVER_RIGHT = 0x00000003"
+            ]
+        }
+    ]
+}
