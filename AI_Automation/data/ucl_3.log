@@ -1,0 +1,26 @@
+
+
+ --------- beginning of ucl
+
+06-01 17:45:01.002   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/11]:service:c7 ,Method:80e5,payload:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+06-01 17:45:01.003   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/12]:service:c7 ,Method:80df,payload:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+06-01 17:45:01.574   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/16]:service:c7 ,Method:80e2,payload:0b 0f 0c 01 01 05 1a 02 
+06-01 17:45:01.946   507   547 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:4, response Payload: 03 00 
+06-01 17:45:01.946   507   546 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:3, response Payload: 00 
+06-01 17:45:01.948   507   547 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:196,method:12, response Payload: 30 34 2e 32 36 30 34 2e 32 36 2e 30 30 00 00 2e 00 00 2e 00 00 00 
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 28
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 22
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 27
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 2
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 2464
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 17560
+06-01 17:45:01.950   506   540 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 19
+06-01 17:45:01.966   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/18]:service:c0 ,Method:8001,payload:01 
+06-01 17:45:01.971   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/19]:service:c0 ,Method:8002,payload:04 00 00 00 
+06-01 17:45:01.971   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1a]:service:c0 ,Method:8003,payload:00 
+06-01 17:45:01.971   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1b]:service:c0 ,Method:8004,payload:01 00 00 00 
+06-01 17:45:01.972   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1c]:service:c0 ,Method:8005,payload:00 03 03 03 00 03 03 03 03 01 03 03 03 04 00 00 00 00 00 00 
+06-01 17:45:01.972   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 00 03 03 03 00 03 03 03 03 01 03 03 03 04 00 00 00 00 00 00 
+06-01 17:45:01.973   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1d]:service:c0 ,Method:8006,payload:00 01 01 
+06-01 17:45:01.973   507   532 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 00 01 01

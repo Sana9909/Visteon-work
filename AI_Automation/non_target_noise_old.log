@@ -1,0 +1,500 @@
+01-01 05:30:06.197   489   489 I UclGen_SomeIpProxy: UCL VERSION : @UCL_VERSION@
+01-01 05:30:06.205   489   489 I UclGen_SomeIpAdapter: UCL App Created Successfully
+01-01 05:30:06.221   489   489 I UclGen_SomeIpAdapter: UCL- SOMEIP Service is Running
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: SignalListenerThread Create Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.221   489   489 I UclILRouter_Impl: IUclILRouter_Initialize: Success 0
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_TimerCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.222   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALPhySerialAndroid_Impl_Hw_Initialize: Device /dev/ttyS1 opened
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_SemCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_TaskCreate: Success
+01-01 05:30:06.224   489   489 I UclALOsAndroid_Impl: IUclALOs_TaskCreate: Success
+01-01 05:30:06.224   489   489 I UclALPhySerialAndroid_Impl_IUclALPhy_Initialize: Success
+01-01 05:30:06.224   489   489 I UclDL_Impl: Inst 0 PeerReady: Link UP
+01-01 05:30:06.224   489   489 I UclDL_Impl: SecurityStartKeyNegotiation: Auth State : 0
+01-01 05:30:06.224   489   489 I UclDL_Impl: NofityLinkStatusChanged 1
+01-01 05:30:06.225   489   489 I UclGen  : LinkStatusChanged 0, -50
+01-01 05:30:06.225   489   489 I UclDL_Impl: UclDL_Initialize:Inst 0 Success 2
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclALOsAndroid_Impl: IUclALOs_MutexCreate: Success
+01-01 05:30:06.225   489   489 I UclILSched_Impl: IUclILSched_Initialize: Success 1
+01-01 05:30:06.225   489   489 I UclSys_Impl: IUclSys_Initialize: Success
+01-01 05:30:06.227   489   512 I UclALPhySerialAndroid_Impl_TransmitTask: Begins
+01-01 05:30:06.232   489   513 I UclALPhySerialAndroid_Impl_ReceiveTask: Begins
+01-01 07:55:08.472   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 30
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 26
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 30
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 2
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 2416
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 19328
+01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 30
+01-01 07:55:08.839   490   544 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: BULK_MSG_SUBSCRIPTION_REQUEST:: 1e 01 97 02 86 01 20 01 2c 01 28 01 15 02 cb 02 d8 01 f4 01 f3 01 d8 02 3b 02 d0 01 fd 02 be 02 d2 01 f8 01 dd 01 de 02 be 02 c6 02 c8 02 c7 01 c0 02 84 02 b5 02 b7 02 b9 01 c6 01 ea 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01
+01-01 07:55:09.477   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 117
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 108
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 117
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 7992
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 18752
+01-01 07:55:09.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 16
+01-01 07:55:09.855   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01
+01-01 07:55:10.479   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 130
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 141
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1960
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 13200
+01-01 07:55:10.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 7
+01-01 07:55:10.871   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01
+01-01 07:55:11.487   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 161
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 149
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 161
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1616
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5208
+01-01 07:55:11.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 7
+01-01 07:55:11.888   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01
+01-01 07:55:12.492   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-01 07:55:12.500   668   676 I UclDL_Impl_VIP: pollingCntr : 3492
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 504
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 328
+01-01 07:55:12.500   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 180
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 167
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 180
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1536
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5128
+01-01 07:55:12.767   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:12.900   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01
+01-01 07:55:13.496   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:13.504   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:13.504   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 07:55:13.504   668   676 I UclDL_Impl_VIP: pollingCntr : 3742
+01-01 07:55:13.504   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 432
+01-01 07:55:13.504   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 280
+01-01 07:55:13.504   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 204
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 180
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 204
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 10216
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5720
+01-01 07:55:13.771   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 11
+01-01 07:55:14.500   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:14.508   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:14.508   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 12
+01-01 07:55:14.508   668   676 I UclDL_Impl_VIP: pollingCntr : 3992
+01-01 07:55:14.508   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:14.508   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:14.508   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 224
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 193
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 224
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 22352
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5016
+01-01 07:55:14.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:15.503   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:15.515   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:15.515   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 7
+01-01 07:55:15.515   668   676 I UclDL_Impl_VIP: pollingCntr : 4242
+01-01 07:55:15.515   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:15.515   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:15.515   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 251
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 212
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 251
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 3
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 23424
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 6896
+01-01 07:55:15.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 10
+01-01 07:55:16.512   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:16.520   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:16.520   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 07:55:16.520   668   676 I UclDL_Impl_VIP: pollingCntr : 4492
+01-01 07:55:16.520   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:16.520   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:16.520   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 266
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 223
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 266
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 4
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 9512
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4696
+01-01 07:55:16.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 11
+01-01 07:55:17.515   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:17.523   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:17.523   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 07:55:17.523   668   676 I UclDL_Impl_VIP: pollingCntr : 4742
+01-01 07:55:17.523   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:17.523   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:17.523   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 278
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 231
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 278
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 6
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 976
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4472
+01-01 07:55:17.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:18.520   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:18.527   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:18.527   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 6
+01-01 07:55:18.527   668   676 I UclDL_Impl_VIP: pollingCntr : 4992
+01-01 07:55:18.527   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:18.527   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:18.527   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 289
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 239
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 289
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 8
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 880
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4416
+01-01 07:55:18.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:19.524   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:19.531   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:19.531   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 12
+01-01 07:55:19.531   668   676 I UclDL_Impl_VIP: pollingCntr : 5242
+01-01 07:55:19.531   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:19.531   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:19.532   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 301
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 248
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 301
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 10
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 960
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4720
+01-01 07:55:19.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:20.528   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:20.539   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:20.539   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 9
+01-01 07:55:20.539   668   676 I UclDL_Impl_VIP: pollingCntr : 5492
+01-01 07:55:20.539   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:20.539   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:20.539   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 311
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 256
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 312
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 12
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4416
+01-01 07:55:20.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 07:55:21.536   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 07:55:21.543   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 07:55:21.543   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-01 07:55:21.543   668   676 I UclDL_Impl_VIP: pollingCntr : 5742
+01-01 07:55:21.543   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 07:55:21.543   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 07:55:21.543   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 321
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 264
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 322
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 13
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4368
+01-01 07:55:21.807   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-28 01:06:33.726   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:33.733   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:33.734   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-28 01:06:33.734   668   676 I UclDL_Impl_VIP: pollingCntr : 5992
+01-28 01:06:33.734   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:33.734   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:33.734   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 332
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 272
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 333
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 14
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 904
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4424
+01-28 01:06:34.002   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-28 01:06:34.730   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:34.737   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:34.737   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-28 01:06:34.737   668   676 I UclDL_Impl_VIP: pollingCntr : 6242
+01-28 01:06:34.737   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:34.737   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:34.737   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 342
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 280
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 343
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 15
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4368
+01-28 01:06:35.001   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-28 01:06:35.734   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:35.741   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:35.742   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-28 01:06:35.742   668   676 I UclDL_Impl_VIP: pollingCntr : 6492
+01-28 01:06:35.742   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:35.742   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:35.742   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 352
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 288
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 353
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 16
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4368
+01-28 01:06:36.003   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 10
+01-28 01:06:36.738   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:36.751   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:36.752   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 9
+01-28 01:06:36.752   668   676 I UclDL_Impl_VIP: pollingCntr : 6742
+01-28 01:06:36.752   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:36.752   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:36.752   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-28 01:06:37.005   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 362
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 296
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 363
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 17
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4368
+01-28 01:06:37.006   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 9
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 372
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 304
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 373
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 18
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 808
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4368
+01-28 01:06:38.009   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 10
+01-28 01:06:38.752   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:38.759   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:38.759   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 6
+01-28 01:06:38.759   668   676 I UclDL_Impl_VIP: pollingCntr : 7242
+01-28 01:06:38.759   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:38.759   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:38.759   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 391
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 313
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 392
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 19
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 2032
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5120
+01-28 01:06:39.014   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 9
+01-28 01:06:39.754   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-28 01:06:39.765   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-28 01:06:39.765   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-28 01:06:39.765   668   676 I UclDL_Impl_VIP: pollingCntr : 7492
+01-28 01:06:39.765   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-28 01:06:39.765   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-28 01:06:39.765   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:28.413   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 03 60
+01-01 02:25:28.506   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 03 b2
+01-01 02:25:28.596   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:28.605   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:28.605   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 02:25:28.605   668   676 I UclDL_Impl_VIP: pollingCntr : 7742
+01-01 02:25:28.605   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:28.605   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:28.605   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:28.863   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 421
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 335
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 422
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 21
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1688
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5448
+01-01 02:25:28.864   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 02:25:29.568   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 01 df
+01-01 02:25:29.599   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 80
+01-01 02:25:29.601   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:29.941   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 bc
+01-01 02:25:30.283   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 01 c4
+01-01 02:25:30.473   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 e2
+01-01 02:25:30.572   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 a1
+01-01 02:25:30.604   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:30.612   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:30.612   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 02:25:30.612   668   676 I UclDL_Impl_VIP: pollingCntr : 8242
+01-01 02:25:30.612   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:30.612   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:30.612   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:30.875   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 497
+01-01 02:25:30.875   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 382
+01-01 02:25:30.875   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:30.875   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 498
+01-01 02:25:30.875   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 22
+01-01 02:25:30.876   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 4744
+01-01 02:25:30.876   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 8208
+01-01 02:25:30.876   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 9
+01-01 02:25:31.397   489   514 W UclVmfMsgQ_Put: Queue 6 Reached 80% 0f Max limit 10(8)
+01-01 02:25:31.403   489   514 W UclVmfMsgQ_Put: Queue 6 Reached 80% 0f Max limit 10(9)
+01-01 02:25:31.407   489   514 W UclVmfMsgQ_Put: Queue 6 Reached 80% 0f Max limit 10(10)
+01-01 02:25:31.414   489   514 W UclVmfMsgQ_Put: Queue 6 Reached 80% 0f Max limit 10(10)
+01-01 02:25:31.419   489   514 E UclVmfMsgQ_Put: Reached Queue 6 Max limit 10(10), flushing queue !!!!DATA LOSS!!!
+01-01 02:25:31.419   489   514 E UclGen  : Processing of SomeIPMsg to Ucl failed! Service Id 194  MethodId 5
+01-01 02:25:31.608   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:31.618   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:31.618   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 15
+01-01 02:25:31.618   668   676 I UclDL_Impl_VIP: pollingCntr : 8492
+01-01 02:25:31.618   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:31.618   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:31.618   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:32.612   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:32.620   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:32.620   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-01 02:25:32.620   668   676 I UclDL_Impl_VIP: pollingCntr : 8742
+01-01 02:25:32.620   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:32.620   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:32.620   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 572
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 420
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 573
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 23
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1336
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4536
+01-01 02:25:32.884   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 9
+01-01 02:25:33.616   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:33.628   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:33.628   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 12
+01-01 02:25:33.628   668   676 I UclDL_Impl_VIP: pollingCntr : 8992
+01-01 02:25:33.628   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:33.628   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:33.628   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 601
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 440
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 602
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 24
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 3224
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 7968
+01-01 02:25:33.883   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 10
+01-01 02:25:34.625   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:34.632   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:34.632   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 10
+01-01 02:25:34.632   668   676 I UclDL_Impl_VIP: pollingCntr : 9242
+01-01 02:25:34.632   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:34.632   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:34.632   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:34.883   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 642
+01-01 02:25:34.883   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 462
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 643
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 24
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 6856
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 9128
+01-01 02:25:34.884   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 11
+01-01 02:25:35.629   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:35.636   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:35.636   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 9
+01-01 02:25:35.636   668   676 I UclDL_Impl_VIP: pollingCntr : 9492
+01-01 02:25:35.636   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:35.636   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:35.636   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:35.899   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 655
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 470
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 656
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 25
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1336
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4536
+01-01 02:25:35.900   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 12
+01-01 02:25:36.633   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:36.640   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:36.640   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 11
+01-01 02:25:36.640   668   676 I UclDL_Impl_VIP: pollingCntr : 9742
+01-01 02:25:36.640   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:36.640   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:36.640   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 666
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 478
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 667
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 26
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 904
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4424
+01-01 02:25:36.904   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 6
+01-01 02:25:37.389   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 7f
+01-01 02:25:37.643   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:37.650   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:37.650   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 02:25:37.650   668   676 I UclDL_Impl_VIP: pollingCntr : 9992
+01-01 02:25:37.650   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:37.650   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 272
+01-01 02:25:37.650   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:37.911   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 684
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 490
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 685
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 26
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1856
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5216
+01-01 02:25:37.912   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 02:25:38.641   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:38.652   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:38.652   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 6
+01-01 02:25:38.652   668   676 I UclDL_Impl_VIP: pollingCntr : 10242
+01-01 02:25:38.652   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:38.652   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 320
+01-01 02:25:38.652   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 695
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 499
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 696
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 27
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 888
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 4672
+01-01 02:25:38.923   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 8
+01-01 02:25:39.434   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 02 7e
+01-01 02:25:39.465   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 01 e9
+01-01 02:25:39.495   490   538 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: VHAL_SINGLEMSGSUBSCRIPTIONREQUEST:: 01 ca
+01-01 02:25:39.648   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:39.656   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:39.656   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 02:25:39.656   668   676 I UclDL_Impl_VIP: pollingCntr : 10492
+01-01 02:25:39.656   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:39.656   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 320
+01-01 02:25:39.656   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1
+01-01 02:25:39.927   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 713
+01-01 02:25:39.927   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 512
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 714
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 27
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 1544
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 5032
+01-01 02:25:39.928   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 6
+01-01 02:25:40.652   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00
+01-01 02:25:40.660   668   676 I UclDL_Impl_VIP: TxA TO : 33
+01-01 02:25:40.660   668   676 I UclDL_Impl_VIP: Avg Ack Latency : 8
+01-01 02:25:40.660   668   676 I UclDL_Impl_VIP: pollingCntr : 10742
+01-01 02:25:40.660   668   676 I UclDL_Impl_TCU: VIP-TCU - txBps : 392
+01-01 02:25:40.660   668   676 I UclDL_Impl_TCU: VIP-TCU - rxBps : 320
+01-01 02:25:40.660   668   676 I UclDL_Impl_TCU: VIP-TCU - txAckTmo : 1

@@ -1,0 +1,314 @@
+[
+{
+    "input": "01-01 05:30:06.197   489   489 I UclGen_SomeIpProxy: UCL VERSION : @UCL_VERSION@",
+    "output":{
+        "timestamp": "01-01 05:30:06.197",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclGen_SomeIpProxy",
+        "message": "UCL VERSION : @UCL_VERSION@"
+    }
+},
+{
+    "input": "01-01 05:30:06.221   489   489 I UclGen_SomeIpAdapter: UCL- SOMEIP Service is Running",
+    "output":{
+        "timestamp": "01-01 05:30:06.221",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclGen_SomeIpAdapter",
+        "message": "UCL- SOMEIP Service is Running"
+    }
+},
+{
+    "input": "01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: Success",
+    "output":{    
+        "timestamp": "01-01 05:30:06.221",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclALOsAndroid_Impl",
+        "message": "IUclALOs_Initialize: Success"
+    }
+},
+{
+    "input": "01-01 05:30:06.221   489   489 I UclALOsAndroid_Impl: IUclALOs_Initialize: SignalListenerThread Create Success",
+    "output":{    
+        "timestamp": "01-01 05:30:06.221",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclALOsAndroid_Impl",
+        "message": "IUclALOs_Initialize: SignalListenerThread Create Success"
+    }
+},
+{
+    "input": "01-01 05:30:06.221   489   489 I UclILRouter_Impl: IUclILRouter_Initialize: Success 0",
+    "output":{    
+        "timestamp": "01-01 05:30:06.221",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclILRouter_Impl",
+        "message": "IUclILRouter_Initialize: Success 0"
+    }
+},
+{
+    "input": "01-01 05:30:06.224   489   489 I UclALPhySerialAndroid_Impl_Hw_Initialize: Device /dev/ttyS1 opened",
+    "output":{    
+        "timestamp": "01-01 05:30:06.224",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclALPhySerialAndroid_Impl_Hw_Initialize",
+        "message": "/dev/ttyS1 opened"
+    }
+},
+{
+    "input": "01-01 05:30:06.224   489   489 I UclDL_Impl: Inst 0 PeerReady: Link UP ",
+    "output":{    
+        "timestamp": "01-01 05:30:06.224",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst 0 PeerReady: Link UP"
+    }
+},
+{
+    "input": "01-01 05:30:06.224   489   489 I UclDL_Impl: SecurityStartKeyNegotiation: Auth State : 0",
+    "output":{    
+        "timestamp": "01-01 05:30:06.224",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "SecurityStartKeyNegotiation: Auth State : 0"
+    }
+},
+{
+    "input": "01-01 05:30:06.224   489   489 I UclDL_Impl: NofityLinkStatusChanged 1",
+    "output":{    
+        "timestamp": "01-01 05:30:06.224",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "NofityLinkStatusChanged 1"
+    }
+},
+{
+    "input": "01-01 05:30:06.225   489   489 I UclGen  : LinkStatusChanged 0, -50",
+    "output": {
+        "timestamp": "01-01 05:30:06.225",
+        "pid": 489,
+        "tid": 489,
+        "log_level": "I",
+        "component": "UclGen",
+        "message": "LinkStatusChanged 0, -50"
+    }
+},
+{
+    "input": "01-01 05:30:06.227   489   512 I UclALPhySerialAndroid_Impl_TransmitTask: Begins",
+    "output": {
+        "timestamp": "01-01 05:30:06.227",
+        "pid": 489,
+        "tid": 512,
+        "log_level": "I",
+        "component": "UclALPhySerialAndroid_Impl_TransmitTask",
+        "message": "Begins"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Msgs : 30",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## Tx Msgs : 30"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA Msgs : 26",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## TxA Msgs : 26"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## TxA TO : 0",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## TxA TO : 0"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Msgs : 30",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## Rx Msgs : 30"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx HB Msgs : 2",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## Rx HB Msgs : 2"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Tx Bps : 2416",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## Tx Bps : 2416"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0 ## Rx Bps : 19328",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0 ## Rx Bps : 19328"
+    }
+},
+{
+    "input": "01-01 07:55:08.763   489   509 I UclDL_Impl: Inst Id : 0  ## Avg Ack Latency : 30",
+    "output": {
+        "timestamp": "01-01 07:55:08.763",
+        "pid": 489,
+        "tid": 509,
+        "log_level": "I",
+        "component": "UclDL_Impl",
+        "message": "Inst Id : 0  ## Avg Ack Latency : 30"
+    }
+},
+{
+    "input": "01-01 05:30:06.458   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/16]:service:c7 ,Method:80e2,payload:08 19 02 05 01 00 00 01",
+    "output": {
+        "timestamp": "01-01 05:30:06.458",
+        "pid": 490,
+        "tid": 541,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": {
+            "protocol": "SomeipCOmm",
+            "type": "RX",
+            "index_info": "0/16",
+            "serviceID": "c7",
+            "methodID": "80e2",
+            "payload": "08 19 02 05 01 00 00 01"
+        }
+    }
+},
+{
+    "input": "01-01 07:55:08.797   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: SomeipCOmm :: RX Message [0/1d]:service:c7 ,Method:80e5,payload:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "output": {
+        "timestamp": "01-01 07:55:08.797",
+        "pid": 490,
+        "tid": 541,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": {
+            "protocol": "SomeipCOmm",
+            "type": "RX",
+            "index_info": "0/1d",
+            "serviceID": "c7",
+            "methodID": "80e5",
+            "payload": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+        }
+    }
+},
+{
+    "input": "01-01 07:55:08.831   490   540 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:193,method:4, response Payload: 03 00",
+    "output": {
+        "timestamp": "01-01 07:55:08.831",
+        "pid": 490,
+        "tid": 540,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": {
+            "type": "TX",
+            "protocol": "SomeipComm::send",
+            "serviceID": 193,
+            "methodID": 4,
+            "payload": "03 00"
+        }
+    }
+},
+{
+    "input": "01-01 07:55:08.835   490   540 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: TX Message SomeipComm::send  : service:196,method:12, response Payload: 30 33 2e 34 34 30 33 2e 34 34 2e 30 30 00 00 2e 00 00 2e 00 00 00",
+    "output": {    
+        "timestamp": "01-01 07:55:08.835",
+        "pid": 490,
+        "tid": 540,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": {
+            "type": "TX",
+            "protocol": "SomeipComm::send",
+            "serviceID": 196,
+            "methodID": 12,
+            "payload": "30 33 2e 34 34 30 33 2e 34 34 2e 30 30 00 00 2e 00 00 2e 00 00 00"
+        }
+    }
+},
+{
+    "input": "01-01 07:55:08.472   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00",
+    "output": {    
+        "timestamp": "01-01 07:55:08.472",
+        "pid": 490,
+        "tid": 541,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": "PERIPHERAL_STATUS:: 03 03 03 03 03 03 03 03 03 01 03 03 03 00 00 00 00 00 00 00"
+    }
+},
+{
+    "input": "01-01 07:55:08.854   490   541 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: WAKESTATE_STATUS:: 01 01 01",
+    "output": {    
+        "timestamp": "01-01 07:55:08.854",
+        "pid": 490,
+        "tid": 541,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": "WAKESTATE_STATUS:: 01 01 01"
+    }
+},
+{
+    "input": "01-01 07:55:08.839   490   544 D vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service: BULK_MSG_SUBSCRIPTION_REQUEST:: 1e 01 97 02 86 01 20 01 2c 01 28 01 15 02 cb 02 d8 01 f4 01 f3 01 d8 02 3b 02 d0 01 fd 02 be 02 d2 01 f8 01 dd 01 de 02 be 02 c6 02 c8 02 c7 01 c0 02 84 02 b5 02 b7 02 b9 01 c6 01 ea 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "output": {    
+        "timestamp": "01-01 07:55:08.839",
+        "pid": 490,
+        "tid": 544,
+        "log_level": "D",
+        "component": "vendor.visteon.skylark.hardware.automotive.vehicle@V1-visteon-service",
+        "message": "BULK_MSG_SUBSCRIPTION_REQUEST:: 1e 01 97 02 86 01 20 01 2c 01 28 01 15 02 cb 02 d8 01 f4 01 f3 01 d8 02 3b 02 d0 01 fd 02 be 02 d2 01 f8 01 dd 01 de 02 be 02 c6 02 c8 02 c7 01 c0 02 84 02 b5 02 b7 02 b9 01 c6 01 ea 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    }
+}
+]
